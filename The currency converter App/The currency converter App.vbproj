@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>The_currency_converter_App</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>The_currency_converter_App.Form2</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
