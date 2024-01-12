@@ -44,8 +44,8 @@ Partial Class form2
         ' 
         ' btnQuit
         ' 
-        btnQuit.Font = New Font("Baskerville Old Face", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
-        btnQuit.Location = New Point(713, 416)
+        btnQuit.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnQuit.Location = New Point(713, 407)
         btnQuit.Name = "btnQuit"
         btnQuit.Size = New Size(75, 31)
         btnQuit.TabIndex = 4
@@ -54,7 +54,7 @@ Partial Class form2
         ' 
         ' txtChoose1
         ' 
-        txtChoose1.Font = New Font("Baskerville Old Face", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtChoose1.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtChoose1.Location = New Point(188, 169)
         txtChoose1.Name = "txtChoose1"
         txtChoose1.Size = New Size(351, 26)
@@ -63,7 +63,7 @@ Partial Class form2
         ' 
         ' txtChoose2
         ' 
-        txtChoose2.Font = New Font("Baskerville Old Face", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtChoose2.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtChoose2.Location = New Point(188, 248)
         txtChoose2.Name = "txtChoose2"
         txtChoose2.Size = New Size(351, 26)
@@ -84,7 +84,7 @@ Partial Class form2
         ' 
         chkChoose1.Appearance = Appearance.Button
         chkChoose1.AutoSize = True
-        chkChoose1.Font = New Font("Baskerville Old Face", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        chkChoose1.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
         chkChoose1.Location = New Point(81, 173)
         chkChoose1.Name = "chkChoose1"
         chkChoose1.Size = New Size(78, 28)
@@ -96,7 +96,7 @@ Partial Class form2
         ' 
         chkChoose2.Appearance = Appearance.Button
         chkChoose2.AutoSize = True
-        chkChoose2.Font = New Font("Baskerville Old Face", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        chkChoose2.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
         chkChoose2.Location = New Point(81, 248)
         chkChoose2.Name = "chkChoose2"
         chkChoose2.Size = New Size(78, 28)
@@ -106,7 +106,7 @@ Partial Class form2
         ' 
         ' form2
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
         Controls.Add(chkChoose2)

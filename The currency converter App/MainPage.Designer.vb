@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Mainpage
+Partial Class frmMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -98,7 +98,7 @@ Partial Class Mainpage
         PictureBox1.TabIndex = 11
         PictureBox1.TabStop = False
         ' 
-        ' Mainpage
+        ' frmMain
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -110,7 +110,8 @@ Partial Class Mainpage
         Controls.Add(txtUsername)
         Controls.Add(lblUserName)
         Controls.Add(lblWelcomeTo)
-        Name = "Mainpage"
+        Name = "frmMain"
+        Text = "frmMain"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

@@ -22,117 +22,117 @@ Partial Class Choose2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnQuit = New System.Windows.Forms.Button()
-        Me.btnNext = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.lblFrom = New System.Windows.Forms.Label()
-        Me.lblTo = New System.Windows.Forms.Label()
-        Me.lblAny1 = New System.Windows.Forms.Label()
-        Me.lblAny2 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
-        '
-        'btnQuit
-        '
-        Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(713, 415)
-        Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(75, 23)
-        Me.btnQuit.TabIndex = 14
-        Me.btnQuit.Text = "Quit"
-        Me.btnQuit.UseVisualStyleBackColor = True
-        '
-        'btnNext
-        '
-        Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(713, 386)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 23)
-        Me.btnNext.TabIndex = 15
-        Me.btnNext.Text = "Next"
-        Me.btnNext.UseVisualStyleBackColor = True
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(160, 135)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 23)
-        Me.TextBox1.TabIndex = 20
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(605, 135)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 23)
-        Me.TextBox2.TabIndex = 21
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.reverse_arrows
-        Me.PictureBox1.Location = New System.Drawing.Point(358, 72)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(132, 60)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 22
-        Me.PictureBox1.TabStop = False
-        '
-        'lblFrom
-        '
-        Me.lblFrom.AutoSize = True
-        Me.lblFrom.Location = New System.Drawing.Point(160, 80)
-        Me.lblFrom.Name = "lblFrom"
-        Me.lblFrom.Size = New System.Drawing.Size(38, 15)
-        Me.lblFrom.TabIndex = 23
-        Me.lblFrom.Text = "From:"
-        '
-        'lblTo
-        '
-        Me.lblTo.AutoSize = True
-        Me.lblTo.Location = New System.Drawing.Point(605, 80)
-        Me.lblTo.Name = "lblTo"
-        Me.lblTo.Size = New System.Drawing.Size(22, 15)
-        Me.lblTo.TabIndex = 24
-        Me.lblTo.Text = "To:"
-        '
-        'lblAny1
-        '
-        Me.lblAny1.AutoSize = True
-        Me.lblAny1.Location = New System.Drawing.Point(160, 117)
-        Me.lblAny1.Name = "lblAny1"
-        Me.lblAny1.Size = New System.Drawing.Size(31, 15)
-        Me.lblAny1.TabIndex = 25
-        Me.lblAny1.Text = "Any:"
-        '
-        'lblAny2
-        '
-        Me.lblAny2.AutoSize = True
-        Me.lblAny2.Location = New System.Drawing.Point(605, 117)
-        Me.lblAny2.Name = "lblAny2"
-        Me.lblAny2.Size = New System.Drawing.Size(31, 15)
-        Me.lblAny2.TabIndex = 26
-        Me.lblAny2.Text = "Any:"
-        '
-        'Form4
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.lblAny2)
-        Me.Controls.Add(Me.lblAny1)
-        Me.Controls.Add(Me.lblTo)
-        Me.Controls.Add(Me.lblFrom)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.btnNext)
-        Me.Controls.Add(Me.btnQuit)
-        Me.Name = "Form4"
-        Me.Text = "Form4"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        btnQuit = New Button()
+        btnNext = New Button()
+        TextBox1 = New TextBox()
+        TextBox2 = New TextBox()
+        PictureBox1 = New PictureBox()
+        lblFrom = New Label()
+        lblTo = New Label()
+        lblAny1 = New Label()
+        lblAny2 = New Label()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' btnQuit
+        ' 
+        btnQuit.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnQuit.Location = New Point(713, 415)
+        btnQuit.Name = "btnQuit"
+        btnQuit.Size = New Size(75, 31)
+        btnQuit.TabIndex = 14
+        btnQuit.Text = "Quit"
+        btnQuit.UseVisualStyleBackColor = True
+        ' 
+        ' btnNext
+        ' 
+        btnNext.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnNext.Location = New Point(713, 380)
+        btnNext.Name = "btnNext"
+        btnNext.Size = New Size(75, 29)
+        btnNext.TabIndex = 15
+        btnNext.Text = "Next"
+        btnNext.UseVisualStyleBackColor = True
+        ' 
+        ' TextBox1
+        ' 
+        TextBox1.Location = New Point(160, 135)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(100, 23)
+        TextBox1.TabIndex = 20
+        ' 
+        ' TextBox2
+        ' 
+        TextBox2.Location = New Point(605, 135)
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(100, 23)
+        TextBox2.TabIndex = 21
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.reverse_arrows
+        PictureBox1.Location = New Point(358, 72)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(132, 60)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 22
+        PictureBox1.TabStop = False
+        ' 
+        ' lblFrom
+        ' 
+        lblFrom.AutoSize = True
+        lblFrom.Location = New Point(160, 80)
+        lblFrom.Name = "lblFrom"
+        lblFrom.Size = New Size(38, 15)
+        lblFrom.TabIndex = 23
+        lblFrom.Text = "From:"
+        ' 
+        ' lblTo
+        ' 
+        lblTo.AutoSize = True
+        lblTo.Location = New Point(605, 80)
+        lblTo.Name = "lblTo"
+        lblTo.Size = New Size(22, 15)
+        lblTo.TabIndex = 24
+        lblTo.Text = "To:"
+        ' 
+        ' lblAny1
+        ' 
+        lblAny1.AutoSize = True
+        lblAny1.Location = New Point(160, 117)
+        lblAny1.Name = "lblAny1"
+        lblAny1.Size = New Size(31, 15)
+        lblAny1.TabIndex = 25
+        lblAny1.Text = "Any:"
+        ' 
+        ' lblAny2
+        ' 
+        lblAny2.AutoSize = True
+        lblAny2.Location = New Point(605, 117)
+        lblAny2.Name = "lblAny2"
+        lblAny2.Size = New Size(31, 15)
+        lblAny2.TabIndex = 26
+        lblAny2.Text = "Any:"
+        ' 
+        ' Choose2
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(lblAny2)
+        Controls.Add(lblAny1)
+        Controls.Add(lblTo)
+        Controls.Add(lblFrom)
+        Controls.Add(PictureBox1)
+        Controls.Add(TextBox2)
+        Controls.Add(TextBox1)
+        Controls.Add(btnNext)
+        Controls.Add(btnQuit)
+        Name = "Choose2"
+        Text = "Form4"
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
+        PerformLayout()
 
     End Sub
 
