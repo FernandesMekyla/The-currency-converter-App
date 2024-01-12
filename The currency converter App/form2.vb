@@ -1,4 +1,4 @@
-﻿Public Class Selection
+﻿Public Class form2
     Private Sub txtChoose1_TextChanged(sender As Object, e As EventArgs) Handles txtChoose1.TextChanged
         chkChoose1.Show()
         Me.Hide()
