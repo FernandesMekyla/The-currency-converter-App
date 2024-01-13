@@ -7,7 +7,7 @@
 
     End Sub
 
-    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+    Private Sub BtnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
 
     End Sub
 End Class

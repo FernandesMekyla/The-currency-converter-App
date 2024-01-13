@@ -7,6 +7,8 @@
     <StartupObject>The_currency_converter_App.The_currency_converter_App.Choose1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>The currency converter App</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <ImportedNamespaces>System.Data=False,System.Drawing=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,The currency converter App=True</ImportedNamespaces>
   </PropertyGroup>
 
   <ItemGroup>
