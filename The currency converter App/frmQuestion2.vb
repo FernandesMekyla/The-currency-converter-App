@@ -1,6 +1,6 @@
 ﻿Public Class frmQuestion2
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtUsername.TextChanged
-        Username = txtUsername.Text
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles txtName.TextChanged
+        Name = txtName.Text
         Me.Hide()
     End Sub
 

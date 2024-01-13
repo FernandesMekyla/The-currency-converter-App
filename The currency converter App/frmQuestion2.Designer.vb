@@ -24,7 +24,7 @@ Partial Class frmQuestion2
     Private Sub InitializeComponent()
         lblWelcomeTo = New Label()
         lblUserName = New Label()
-        txtUsername = New TextBox()
+        txtName = New TextBox()
         btnNext = New Button()
         btnQuit = New Button()
         PictureBox1 = New PictureBox()
@@ -51,12 +51,12 @@ Partial Class frmQuestion2
         lblUserName.TabIndex = 2
         lblUserName.Text = "Please Enter Your Name Here:"
         ' 
-        ' txtUsername
+        ' txtName
         ' 
-        txtUsername.Location = New Point(240, 214)
-        txtUsername.Name = "txtUsername"
-        txtUsername.Size = New Size(262, 23)
-        txtUsername.TabIndex = 6
+        txtName.Location = New Point(240, 214)
+        txtName.Name = "txtName"
+        txtName.Size = New Size(262, 23)
+        txtName.TabIndex = 6
         ' 
         ' btnNext
         ' 
@@ -96,7 +96,7 @@ Partial Class frmQuestion2
         Controls.Add(PictureBox1)
         Controls.Add(btnQuit)
         Controls.Add(btnNext)
-        Controls.Add(txtUsername)
+        Controls.Add(txtName)
         Controls.Add(lblUserName)
         Controls.Add(lblWelcomeTo)
         Name = "frmQuestion2"
@@ -109,7 +109,7 @@ Partial Class frmQuestion2
 
     Friend WithEvents lblWelcomeTo As Label
     Friend WithEvents lblUserName As Label
-    Friend WithEvents txtUsername As TextBox
+    Friend WithEvents txtName As TextBox
     Friend WithEvents btnNext As Button
     Friend WithEvents btnQuit As Button
     Friend WithEvents PictureBox1 As PictureBox
