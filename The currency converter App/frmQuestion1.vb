@@ -1,4 +1,4 @@
-﻿Public Class form2
+﻿Public Class FrmQuestion1
     Private Sub TxtChoose1_TextChanged(sender As Object, e As EventArgs) Handles txtChoose1.TextChanged
         chkChoose1.Show()
         Me.Hide()
@@ -8,8 +8,13 @@
         Me.Hide()
     End Sub
 
-    Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
+    Private Sub BtnQuit_Click(sender As Object, e As EventArgs, frmQuestion2 As frmQuestion2) Handles btnQuit.Click
+        frmQuestion2.Show()
         Application.Exit()
 
+    End Sub
+
+    Private Sub BtnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        Me.Hide()
     End Sub
 End Class

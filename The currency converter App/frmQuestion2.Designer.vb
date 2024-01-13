@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmMain
+Partial Class frmQuestion2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -87,7 +87,7 @@ Partial Class frmMain
         PictureBox1.TabIndex = 11
         PictureBox1.TabStop = False
         ' 
-        ' frmMain
+        ' frmQuestion2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
@@ -98,8 +98,8 @@ Partial Class frmMain
         Controls.Add(txtUsername)
         Controls.Add(lblUserName)
         Controls.Add(lblWelcomeTo)
-        Name = "frmMain"
-        Text = "frmMain"
+        Name = "frmQuestion2"
+        Text = "frmQuestion2"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()

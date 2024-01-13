@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class form2
+Partial Class frmQuestion1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -29,6 +29,7 @@ Partial Class form2
         PictureBox1 = New PictureBox()
         chkChoose1 = New CheckBox()
         chkChoose2 = New CheckBox()
+        btnNext = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -104,11 +105,22 @@ Partial Class form2
         chkChoose2.Text = "Choose 2"
         chkChoose2.UseVisualStyleBackColor = True
         ' 
-        ' form2
+        ' btnNext
+        ' 
+        btnNext.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnNext.Location = New Point(713, 372)
+        btnNext.Name = "btnNext"
+        btnNext.Size = New Size(75, 29)
+        btnNext.TabIndex = 12
+        btnNext.Text = "Next"
+        btnNext.UseVisualStyleBackColor = True
+        ' 
+        ' FrmQuestion1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnNext)
         Controls.Add(chkChoose2)
         Controls.Add(chkChoose1)
         Controls.Add(PictureBox1)
@@ -116,8 +128,8 @@ Partial Class form2
         Controls.Add(txtChoose1)
         Controls.Add(btnQuit)
         Controls.Add(lblWelcomeTo)
-        Name = "form2"
-        Text = "Form2"
+        Name = "FrmQuestion1"
+        Text = "frmQuestion1"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -131,4 +143,5 @@ Partial Class form2
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents chkChoose1 As CheckBox
     Friend WithEvents chkChoose2 As CheckBox
+    Friend WithEvents btnNext As Button
 End Class
