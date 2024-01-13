@@ -34,25 +34,26 @@ Partial Class frmQuestion2
         ' lblWelcomeTo
         ' 
         lblWelcomeTo.AutoSize = True
-        lblWelcomeTo.Location = New Point(91, 102)
+        lblWelcomeTo.Font = New Font("Bell MT", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        lblWelcomeTo.Location = New Point(102, 63)
         lblWelcomeTo.Name = "lblWelcomeTo"
-        lblWelcomeTo.Size = New Size(71, 15)
+        lblWelcomeTo.Size = New Size(142, 29)
         lblWelcomeTo.TabIndex = 1
         lblWelcomeTo.Text = "Welcome to"
         ' 
         ' lblUserName
         ' 
         lblUserName.AutoSize = True
-        lblUserName.Font = New Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        lblUserName.Location = New Point(91, 184)
+        lblUserName.Font = New Font("Cambria", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        lblUserName.Location = New Point(215, 183)
         lblUserName.Name = "lblUserName"
-        lblUserName.Size = New Size(88, 19)
+        lblUserName.Size = New Size(341, 28)
         lblUserName.TabIndex = 2
-        lblUserName.Text = "UserName:"
+        lblUserName.Text = "Please Enter Your Name Here:"
         ' 
         ' txtUsername
         ' 
-        txtUsername.Location = New Point(211, 186)
+        txtUsername.Location = New Point(240, 214)
         txtUsername.Name = "txtUsername"
         txtUsername.Size = New Size(262, 23)
         txtUsername.TabIndex = 6
@@ -80,9 +81,9 @@ Partial Class frmQuestion2
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.logo_for_app
-        PictureBox1.Location = New Point(211, 31)
+        PictureBox1.Location = New Point(250, 12)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(181, 112)
+        PictureBox1.Size = New Size(236, 136)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 11
         PictureBox1.TabStop = False

@@ -8,8 +8,7 @@
         Me.Hide()
     End Sub
 
-    Private Sub BtnQuit_Click(sender As Object, e As EventArgs, frmQuestion2 As frmQuestion2) Handles btnQuit.Click
-        frmQuestion2.Show()
+    Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         Application.Exit()
 
     End Sub

@@ -31,6 +31,8 @@ Partial Class Choose2
         lblTo = New Label()
         lblAny1 = New Label()
         lblAny2 = New Label()
+        ComboBoxAny1 = New ComboBox()
+        ComboBoxAny2 = New ComboBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -56,14 +58,14 @@ Partial Class Choose2
         ' 
         ' TextBox1
         ' 
-        TextBox1.Location = New Point(160, 135)
+        TextBox1.Location = New Point(77, 135)
         TextBox1.Name = "TextBox1"
         TextBox1.Size = New Size(100, 23)
         TextBox1.TabIndex = 20
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(605, 135)
+        TextBox2.Location = New Point(584, 135)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(100, 23)
         TextBox2.TabIndex = 21
@@ -71,9 +73,9 @@ Partial Class Choose2
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.reverse_arrows
-        PictureBox1.Location = New Point(358, 72)
+        PictureBox1.Location = New Point(338, 72)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(132, 60)
+        PictureBox1.Size = New Size(109, 60)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 22
         PictureBox1.TabStop = False
@@ -81,7 +83,7 @@ Partial Class Choose2
         ' lblFrom
         ' 
         lblFrom.AutoSize = True
-        lblFrom.Location = New Point(160, 80)
+        lblFrom.Location = New Point(77, 72)
         lblFrom.Name = "lblFrom"
         lblFrom.Size = New Size(38, 15)
         lblFrom.TabIndex = 23
@@ -90,7 +92,7 @@ Partial Class Choose2
         ' lblTo
         ' 
         lblTo.AutoSize = True
-        lblTo.Location = New Point(605, 80)
+        lblTo.Location = New Point(584, 72)
         lblTo.Name = "lblTo"
         lblTo.Size = New Size(22, 15)
         lblTo.TabIndex = 24
@@ -99,7 +101,7 @@ Partial Class Choose2
         ' lblAny1
         ' 
         lblAny1.AutoSize = True
-        lblAny1.Location = New Point(160, 117)
+        lblAny1.Location = New Point(77, 117)
         lblAny1.Name = "lblAny1"
         lblAny1.Size = New Size(31, 15)
         lblAny1.TabIndex = 25
@@ -108,17 +110,37 @@ Partial Class Choose2
         ' lblAny2
         ' 
         lblAny2.AutoSize = True
-        lblAny2.Location = New Point(605, 117)
+        lblAny2.Location = New Point(584, 117)
         lblAny2.Name = "lblAny2"
         lblAny2.Size = New Size(31, 15)
         lblAny2.TabIndex = 26
         lblAny2.Text = "Any:"
+        ' 
+        ' ComboBoxAny1
+        ' 
+        ComboBoxAny1.FormattingEnabled = True
+        ComboBoxAny1.Location = New Point(77, 164)
+        ComboBoxAny1.Name = "ComboBoxAny1"
+        ComboBoxAny1.Size = New Size(157, 23)
+        ComboBoxAny1.TabIndex = 27
+        ComboBoxAny1.Text = " Choose your Currency "
+        ' 
+        ' ComboBoxAny2
+        ' 
+        ComboBoxAny2.FormattingEnabled = True
+        ComboBoxAny2.Location = New Point(584, 164)
+        ComboBoxAny2.Name = "ComboBoxAny2"
+        ComboBoxAny2.Size = New Size(152, 23)
+        ComboBoxAny2.TabIndex = 28
+        ComboBoxAny2.Text = "Choose your Currency"
         ' 
         ' Choose2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(ComboBoxAny2)
+        Controls.Add(ComboBoxAny1)
         Controls.Add(lblAny2)
         Controls.Add(lblAny1)
         Controls.Add(lblTo)
@@ -145,4 +167,6 @@ Partial Class Choose2
     Friend WithEvents lblTo As Label
     Friend WithEvents lblAny1 As Label
     Friend WithEvents lblAny2 As Label
+    Friend WithEvents ComboBoxAny1 As ComboBox
+    Friend WithEvents ComboBoxAny2 As ComboBox
 End Class
