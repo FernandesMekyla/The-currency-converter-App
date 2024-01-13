@@ -26,7 +26,6 @@ Partial Class frmMain
         lblUserName = New Label()
         txtUsername = New TextBox()
         btnNext = New Button()
-        btnSkip = New Button()
         btnQuit = New Button()
         PictureBox1 = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -61,22 +60,12 @@ Partial Class frmMain
         ' btnNext
         ' 
         btnNext.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnNext.Location = New Point(713, 344)
+        btnNext.Location = New Point(713, 382)
         btnNext.Name = "btnNext"
         btnNext.Size = New Size(75, 29)
         btnNext.TabIndex = 8
         btnNext.Text = "Next"
         btnNext.UseVisualStyleBackColor = True
-        ' 
-        ' btnSkip
-        ' 
-        btnSkip.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnSkip.Location = New Point(713, 379)
-        btnSkip.Name = "btnSkip"
-        btnSkip.Size = New Size(75, 32)
-        btnSkip.TabIndex = 9
-        btnSkip.Text = "Skip"
-        btnSkip.UseVisualStyleBackColor = True
         ' 
         ' btnQuit
         ' 
@@ -105,7 +94,6 @@ Partial Class frmMain
         ClientSize = New Size(800, 450)
         Controls.Add(PictureBox1)
         Controls.Add(btnQuit)
-        Controls.Add(btnSkip)
         Controls.Add(btnNext)
         Controls.Add(txtUsername)
         Controls.Add(lblUserName)
@@ -122,7 +110,6 @@ Partial Class frmMain
     Friend WithEvents lblUserName As Label
     Friend WithEvents txtUsername As TextBox
     Friend WithEvents btnNext As Button
-    Friend WithEvents btnSkip As Button
     Friend WithEvents btnQuit As Button
     Friend WithEvents PictureBox1 As PictureBox
 End Class
