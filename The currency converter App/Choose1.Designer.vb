@@ -26,12 +26,15 @@ Partial Class Choose1
         lblTo = New Label()
         lblGBP = New Label()
         lblAny = New Label()
-        TextBox1 = New TextBox()
+        GBPAmount = New TextBox()
         TextBox2 = New TextBox()
         btnNext = New Button()
         btnQuit = New Button()
         PictureBox1 = New PictureBox()
         ComboBox1 = New ComboBox()
+        btnConverttoAnyCurrency = New Button()
+        btnConvertToGBPCurrency = New Button()
+        btnReset = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -56,7 +59,7 @@ Partial Class Choose1
         ' lblGBP
         ' 
         lblGBP.AutoSize = True
-        lblGBP.Location = New Point(91, 143)
+        lblGBP.Location = New Point(91, 129)
         lblGBP.Name = "lblGBP"
         lblGBP.Size = New Size(32, 15)
         lblGBP.TabIndex = 4
@@ -65,22 +68,22 @@ Partial Class Choose1
         ' lblAny
         ' 
         lblAny.AutoSize = True
-        lblAny.Location = New Point(579, 143)
+        lblAny.Location = New Point(579, 129)
         lblAny.Name = "lblAny"
         lblAny.Size = New Size(31, 15)
         lblAny.TabIndex = 5
         lblAny.Text = "Any:"
         ' 
-        ' TextBox1
+        ' GBPAmount
         ' 
-        TextBox1.Location = New Point(91, 161)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 7
+        GBPAmount.Location = New Point(91, 147)
+        GBPAmount.Name = "GBPAmount"
+        GBPAmount.Size = New Size(100, 23)
+        GBPAmount.TabIndex = 7
         ' 
         ' TextBox2
         ' 
-        TextBox2.Location = New Point(579, 161)
+        TextBox2.Location = New Point(579, 147)
         TextBox2.Name = "TextBox2"
         TextBox2.Size = New Size(100, 23)
         TextBox2.TabIndex = 8
@@ -118,23 +121,56 @@ Partial Class Choose1
         ' ComboBox1
         ' 
         ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(579, 190)
+        ComboBox1.Location = New Point(579, 176)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(149, 23)
         ComboBox1.TabIndex = 15
         ComboBox1.Text = "Choose your Currency"
+        ' 
+        ' btnConverttoAnyCurrency
+        ' 
+        btnConverttoAnyCurrency.Font = New Font("Bodoni MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnConverttoAnyCurrency.Location = New Point(79, 204)
+        btnConverttoAnyCurrency.Name = "btnConverttoAnyCurrency"
+        btnConverttoAnyCurrency.Size = New Size(140, 55)
+        btnConverttoAnyCurrency.TabIndex = 16
+        btnConverttoAnyCurrency.Text = "Convert To Any Currency"
+        btnConverttoAnyCurrency.UseVisualStyleBackColor = True
+        ' 
+        ' btnConvertToGBPCurrency
+        ' 
+        btnConvertToGBPCurrency.Font = New Font("Bodoni MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnConvertToGBPCurrency.Location = New Point(585, 206)
+        btnConvertToGBPCurrency.Name = "btnConvertToGBPCurrency"
+        btnConvertToGBPCurrency.Size = New Size(143, 53)
+        btnConvertToGBPCurrency.TabIndex = 17
+        btnConvertToGBPCurrency.Text = "Convert to GBP Currency"
+        btnConvertToGBPCurrency.UseVisualStyleBackColor = True
+        ' 
+        ' btnReset
+        ' 
+        btnReset.Font = New Font("Georgia Pro Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnReset.Location = New Point(311, 245)
+        btnReset.Name = "btnReset"
+        btnReset.Size = New Size(109, 42)
+        btnReset.TabIndex = 18
+        btnReset.Text = "Reset"
+        btnReset.UseVisualStyleBackColor = True
         ' 
         ' Choose1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnReset)
+        Controls.Add(btnConvertToGBPCurrency)
+        Controls.Add(btnConverttoAnyCurrency)
         Controls.Add(ComboBox1)
         Controls.Add(PictureBox1)
         Controls.Add(btnQuit)
         Controls.Add(btnNext)
         Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(GBPAmount)
         Controls.Add(lblAny)
         Controls.Add(lblGBP)
         Controls.Add(lblTo)
@@ -151,10 +187,13 @@ Partial Class Choose1
     Friend WithEvents lblTo As Label
     Friend WithEvents lblGBP As Label
     Friend WithEvents lblAny As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents GBPAmount As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents btnNext As Button
     Friend WithEvents btnQuit As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents btnConverttoAnyCurrency As Button
+    Friend WithEvents btnConvertToGBPCurrency As Button
+    Friend WithEvents btnReset As Button
 End Class

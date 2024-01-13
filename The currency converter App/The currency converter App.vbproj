@@ -4,8 +4,9 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>The_currency_converter_App</RootNamespace>
-    <StartupObject>The_currency_converter_App.Form2</StartupObject>
+    <StartupObject>The_currency_converter_App.The_currency_converter_App.Choose1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>The currency converter App</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

@@ -33,6 +33,9 @@ Partial Class Choose2
         lblAny2 = New Label()
         ComboBoxAny1 = New ComboBox()
         ComboBoxAny2 = New ComboBox()
+        Button1 = New Button()
+        btnConvertAny2toAny1 = New Button()
+        btnReset = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -134,11 +137,44 @@ Partial Class Choose2
         ComboBoxAny2.TabIndex = 28
         ComboBoxAny2.Text = "Choose your Currency"
         ' 
+        ' Button1
+        ' 
+        Button1.Font = New Font("Bodoni MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Button1.Location = New Point(80, 213)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(154, 76)
+        Button1.TabIndex = 29
+        Button1.Text = "Convert Any currency to Any currency"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' btnConvertAny2toAny1
+        ' 
+        btnConvertAny2toAny1.Font = New Font("Bodoni MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        btnConvertAny2toAny1.Location = New Point(582, 213)
+        btnConvertAny2toAny1.Name = "btnConvertAny2toAny1"
+        btnConvertAny2toAny1.Size = New Size(154, 76)
+        btnConvertAny2toAny1.TabIndex = 30
+        btnConvertAny2toAny1.Text = "Convert Any currency to Any Currency"
+        btnConvertAny2toAny1.UseVisualStyleBackColor = True
+        ' 
+        ' btnReset
+        ' 
+        btnReset.Font = New Font("Georgia Pro Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnReset.Location = New Point(338, 246)
+        btnReset.Name = "btnReset"
+        btnReset.Size = New Size(109, 43)
+        btnReset.TabIndex = 31
+        btnReset.Text = "Reset"
+        btnReset.UseVisualStyleBackColor = True
+        ' 
         ' Choose2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(btnReset)
+        Controls.Add(btnConvertAny2toAny1)
+        Controls.Add(Button1)
         Controls.Add(ComboBoxAny2)
         Controls.Add(ComboBoxAny1)
         Controls.Add(lblAny2)
@@ -169,4 +205,7 @@ Partial Class Choose2
     Friend WithEvents lblAny2 As Label
     Friend WithEvents ComboBoxAny1 As ComboBox
     Friend WithEvents ComboBoxAny2 As ComboBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents btnConvertAny2toAny1 As Button
+    Friend WithEvents btnReset As Button
 End Class

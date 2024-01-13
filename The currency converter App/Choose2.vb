@@ -6,4 +6,8 @@
     Private Sub BtnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
 
     End Sub
+
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+
+    End Sub
 End Class
