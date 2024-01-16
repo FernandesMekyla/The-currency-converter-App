@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmQuestion2
+Partial Class FrmQuestion2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.

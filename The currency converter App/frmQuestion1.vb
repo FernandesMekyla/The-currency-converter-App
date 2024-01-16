@@ -9,12 +9,12 @@
         Me.Hide()
     End Sub
 
-    Private Sub chkChoose1_CheckedChanged(sender As Object, e As EventArgs) Handles chkChoose1.CheckedChanged
-        frmchkChoose1.Show()
+    Private Sub ChkChoose1_CheckedChanged(sender As Object, e As EventArgs) Handles chkChoose1.CheckedChanged
+        FrmchkChoose1.Show()
         Me.Hide()
     End Sub
 
-    Private Sub chkChoose2_CheckedChanged(sender As Object, e As EventArgs) Handles chkChoose2.CheckedChanged
+    Private Sub ChkChoose2_CheckedChanged(sender As Object, e As EventArgs) Handles chkChoose2.CheckedChanged
         frmchkChoose2.Show()
         Me.Hide()
     End Sub

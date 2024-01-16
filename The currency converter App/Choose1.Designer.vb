@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmchkChoose1
+Partial Class FrmchkChoose1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -35,6 +35,7 @@ Partial Class frmchkChoose1
         Me.btnConverttoAnyCurrency = New System.Windows.Forms.Button()
         Me.btnConvertToGBPCurrency = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -156,11 +157,20 @@ Partial Class frmchkChoose1
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
         '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(579, 177)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(149, 23)
+        Me.ComboBox2.TabIndex = 19
+        '
         'frmchkChoose1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnConvertToGBPCurrency)
         Me.Controls.Add(Me.btnConverttoAnyCurrency)
@@ -195,4 +205,5 @@ Partial Class frmchkChoose1
     Friend WithEvents btnConverttoAnyCurrency As Button
     Friend WithEvents btnConvertToGBPCurrency As Button
     Friend WithEvents btnReset As Button
+    Friend WithEvents ComboBox2 As ComboBox
 End Class

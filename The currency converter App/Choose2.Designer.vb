@@ -24,8 +24,8 @@ Partial Class frmchkChoose2
     Private Sub InitializeComponent()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.btnNext = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtAmountAny1 = New System.Windows.Forms.TextBox()
+        Me.txtAmountAny2 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.lblFrom = New System.Windows.Forms.Label()
         Me.lblTo = New System.Windows.Forms.Label()
@@ -59,19 +59,19 @@ Partial Class frmchkChoose2
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtAmountAny1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(77, 135)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 23)
-        Me.TextBox1.TabIndex = 20
+        Me.txtAmountAny1.Location = New System.Drawing.Point(77, 135)
+        Me.txtAmountAny1.Name = "txtAmountAny1"
+        Me.txtAmountAny1.Size = New System.Drawing.Size(100, 23)
+        Me.txtAmountAny1.TabIndex = 20
         '
-        'TextBox2
+        'txtAmountAny2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(584, 135)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 23)
-        Me.TextBox2.TabIndex = 21
+        Me.txtAmountAny2.Location = New System.Drawing.Point(584, 135)
+        Me.txtAmountAny2.Name = "txtAmountAny2"
+        Me.txtAmountAny2.Size = New System.Drawing.Size(100, 23)
+        Me.txtAmountAny2.TabIndex = 21
         '
         'PictureBox1
         '
@@ -126,7 +126,6 @@ Partial Class frmchkChoose2
         Me.ComboBoxAny1.Name = "ComboBoxAny1"
         Me.ComboBoxAny1.Size = New System.Drawing.Size(157, 23)
         Me.ComboBoxAny1.TabIndex = 27
-        Me.ComboBoxAny1.Text = " Choose your Currency "
         '
         'ComboBoxAny2
         '
@@ -135,7 +134,6 @@ Partial Class frmchkChoose2
         Me.ComboBoxAny2.Name = "ComboBoxAny2"
         Me.ComboBoxAny2.Size = New System.Drawing.Size(152, 23)
         Me.ComboBoxAny2.TabIndex = 28
-        Me.ComboBoxAny2.Text = "Choose your Currency"
         '
         'Button1
         '
@@ -182,8 +180,8 @@ Partial Class frmchkChoose2
         Me.Controls.Add(Me.lblTo)
         Me.Controls.Add(Me.lblFrom)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtAmountAny2)
+        Me.Controls.Add(Me.txtAmountAny1)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.btnQuit)
         Me.Name = "frmchkChoose2"
@@ -196,8 +194,8 @@ Partial Class frmchkChoose2
 
     Friend WithEvents btnQuit As Button
     Friend WithEvents btnNext As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtAmountAny1 As TextBox
+    Friend WithEvents txtAmountAny2 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents lblFrom As Label
     Friend WithEvents lblTo As Label
