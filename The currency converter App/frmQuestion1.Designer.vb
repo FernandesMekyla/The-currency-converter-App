@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class frmQuestion1
+Partial Class FrmQuestion1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,117 +22,117 @@ Partial Class frmQuestion1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        lblWelcomeTo = New Label()
-        btnQuit = New Button()
-        txtChoose1 = New TextBox()
-        txtChoose2 = New TextBox()
-        PictureBox1 = New PictureBox()
-        chkChoose1 = New CheckBox()
-        chkChoose2 = New CheckBox()
-        btnNext = New Button()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        SuspendLayout()
-        ' 
-        ' lblWelcomeTo
-        ' 
-        lblWelcomeTo.AutoSize = True
-        lblWelcomeTo.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        lblWelcomeTo.Location = New Point(81, 48)
-        lblWelcomeTo.Name = "lblWelcomeTo"
-        lblWelcomeTo.Size = New Size(124, 25)
-        lblWelcomeTo.TabIndex = 0
-        lblWelcomeTo.Text = "Welcome To:"
-        ' 
-        ' btnQuit
-        ' 
-        btnQuit.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnQuit.Location = New Point(713, 407)
-        btnQuit.Name = "btnQuit"
-        btnQuit.Size = New Size(75, 31)
-        btnQuit.TabIndex = 4
-        btnQuit.Text = "Quit"
-        btnQuit.UseVisualStyleBackColor = True
-        ' 
-        ' txtChoose1
-        ' 
-        txtChoose1.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        txtChoose1.Location = New Point(188, 169)
-        txtChoose1.Name = "txtChoose1"
-        txtChoose1.Size = New Size(351, 26)
-        txtChoose1.TabIndex = 5
-        txtChoose1.Text = "Choose Option 1 if you want to convert GBP To Any."
-        ' 
-        ' txtChoose2
-        ' 
-        txtChoose2.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        txtChoose2.Location = New Point(188, 248)
-        txtChoose2.Name = "txtChoose2"
-        txtChoose2.Size = New Size(351, 26)
-        txtChoose2.TabIndex = 6
-        txtChoose2.Text = "Choose Option 1 if you want to convert Any To Any."
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = My.Resources.Resources.logo_for_app
-        PictureBox1.Location = New Point(211, 48)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(204, 102)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 7
-        PictureBox1.TabStop = False
-        ' 
-        ' chkChoose1
-        ' 
-        chkChoose1.Appearance = Appearance.Button
-        chkChoose1.AutoSize = True
-        chkChoose1.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        chkChoose1.Location = New Point(81, 173)
-        chkChoose1.Name = "chkChoose1"
-        chkChoose1.Size = New Size(78, 28)
-        chkChoose1.TabIndex = 10
-        chkChoose1.Text = "Choose 1"
-        chkChoose1.UseVisualStyleBackColor = True
-        ' 
-        ' chkChoose2
-        ' 
-        chkChoose2.Appearance = Appearance.Button
-        chkChoose2.AutoSize = True
-        chkChoose2.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        chkChoose2.Location = New Point(81, 248)
-        chkChoose2.Name = "chkChoose2"
-        chkChoose2.Size = New Size(78, 28)
-        chkChoose2.TabIndex = 11
-        chkChoose2.Text = "Choose 2"
-        chkChoose2.UseVisualStyleBackColor = True
-        ' 
-        ' btnNext
-        ' 
-        btnNext.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnNext.Location = New Point(713, 372)
-        btnNext.Name = "btnNext"
-        btnNext.Size = New Size(75, 29)
-        btnNext.TabIndex = 12
-        btnNext.Text = "Next"
-        btnNext.UseVisualStyleBackColor = True
-        ' 
-        ' FrmQuestion1
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
-        Controls.Add(btnNext)
-        Controls.Add(chkChoose2)
-        Controls.Add(chkChoose1)
-        Controls.Add(PictureBox1)
-        Controls.Add(txtChoose2)
-        Controls.Add(txtChoose1)
-        Controls.Add(btnQuit)
-        Controls.Add(lblWelcomeTo)
-        Name = "FrmQuestion1"
-        Text = "frmQuestion1"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        ResumeLayout(False)
-        PerformLayout()
+        Me.lblWelcomeTo = New System.Windows.Forms.Label()
+        Me.btnQuit = New System.Windows.Forms.Button()
+        Me.txtChoose1 = New System.Windows.Forms.TextBox()
+        Me.txtChoose2 = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.chkChoose1 = New System.Windows.Forms.CheckBox()
+        Me.chkChoose2 = New System.Windows.Forms.CheckBox()
+        Me.btnNext = New System.Windows.Forms.Button()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'lblWelcomeTo
+        '
+        Me.lblWelcomeTo.AutoSize = True
+        Me.lblWelcomeTo.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblWelcomeTo.Location = New System.Drawing.Point(81, 48)
+        Me.lblWelcomeTo.Name = "lblWelcomeTo"
+        Me.lblWelcomeTo.Size = New System.Drawing.Size(124, 25)
+        Me.lblWelcomeTo.TabIndex = 0
+        Me.lblWelcomeTo.Text = "Welcome To:"
+        '
+        'btnQuit
+        '
+        Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnQuit.Location = New System.Drawing.Point(713, 407)
+        Me.btnQuit.Name = "btnQuit"
+        Me.btnQuit.Size = New System.Drawing.Size(75, 31)
+        Me.btnQuit.TabIndex = 4
+        Me.btnQuit.Text = "Quit"
+        Me.btnQuit.UseVisualStyleBackColor = True
+        '
+        'txtChoose1
+        '
+        Me.txtChoose1.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.txtChoose1.Location = New System.Drawing.Point(188, 169)
+        Me.txtChoose1.Name = "txtChoose1"
+        Me.txtChoose1.Size = New System.Drawing.Size(351, 26)
+        Me.txtChoose1.TabIndex = 5
+        Me.txtChoose1.Text = "Choose Option 1 if you want to convert GBP To Any."
+        '
+        'txtChoose2
+        '
+        Me.txtChoose2.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.txtChoose2.Location = New System.Drawing.Point(188, 248)
+        Me.txtChoose2.Name = "txtChoose2"
+        Me.txtChoose2.Size = New System.Drawing.Size(351, 26)
+        Me.txtChoose2.TabIndex = 6
+        Me.txtChoose2.Text = "Choose Option 1 if you want to convert Any To Any."
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.logo_for_app
+        Me.PictureBox1.Location = New System.Drawing.Point(211, 48)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(204, 102)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 7
+        Me.PictureBox1.TabStop = False
+        '
+        'chkChoose1
+        '
+        Me.chkChoose1.Appearance = System.Windows.Forms.Appearance.Button
+        Me.chkChoose1.AutoSize = True
+        Me.chkChoose1.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.chkChoose1.Location = New System.Drawing.Point(81, 173)
+        Me.chkChoose1.Name = "chkChoose1"
+        Me.chkChoose1.Size = New System.Drawing.Size(78, 28)
+        Me.chkChoose1.TabIndex = 10
+        Me.chkChoose1.Text = "Choose 1"
+        Me.chkChoose1.UseVisualStyleBackColor = True
+        '
+        'chkChoose2
+        '
+        Me.chkChoose2.Appearance = System.Windows.Forms.Appearance.Button
+        Me.chkChoose2.AutoSize = True
+        Me.chkChoose2.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.chkChoose2.Location = New System.Drawing.Point(81, 248)
+        Me.chkChoose2.Name = "chkChoose2"
+        Me.chkChoose2.Size = New System.Drawing.Size(78, 28)
+        Me.chkChoose2.TabIndex = 11
+        Me.chkChoose2.Text = "Choose 2"
+        Me.chkChoose2.UseVisualStyleBackColor = True
+        '
+        'btnNext
+        '
+        Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnNext.Location = New System.Drawing.Point(713, 372)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(75, 29)
+        Me.btnNext.TabIndex = 12
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
+        '
+        'FrmQuestion1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnNext)
+        Me.Controls.Add(Me.chkChoose2)
+        Me.Controls.Add(Me.chkChoose1)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.txtChoose2)
+        Me.Controls.Add(Me.txtChoose1)
+        Me.Controls.Add(Me.btnQuit)
+        Me.Controls.Add(Me.lblWelcomeTo)
+        Me.Name = "FrmQuestion1"
+        Me.Text = "frmQuestion1"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 

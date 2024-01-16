@@ -1,3 +1,5 @@
 ﻿Module Module1
-    Public Username As String
+    Dim Name As String
+    Dim Amount As Decimal
+    Dim Exchange As Decimal
 End Module

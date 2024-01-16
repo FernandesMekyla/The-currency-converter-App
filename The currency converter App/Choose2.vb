@@ -1,4 +1,4 @@
-﻿Public Class Choose2
+﻿Public Class frmchkChoose2
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
 
     End Sub

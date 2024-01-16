@@ -5,7 +5,9 @@
     End Sub
 
     Private Sub BtnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
-
+        If  Then
+            frmchkChoose1.Show()
+        End If
     End Sub
 
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click

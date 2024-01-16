@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Choose2
+Partial Class frmchkChoose2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,175 +22,175 @@ Partial Class Choose2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        btnQuit = New Button()
-        btnNext = New Button()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
-        PictureBox1 = New PictureBox()
-        lblFrom = New Label()
-        lblTo = New Label()
-        lblAny1 = New Label()
-        lblAny2 = New Label()
-        ComboBoxAny1 = New ComboBox()
-        ComboBoxAny2 = New ComboBox()
-        Button1 = New Button()
-        btnConvertAny2toAny1 = New Button()
-        btnReset = New Button()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        SuspendLayout()
-        ' 
-        ' btnQuit
-        ' 
-        btnQuit.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnQuit.Location = New Point(713, 415)
-        btnQuit.Name = "btnQuit"
-        btnQuit.Size = New Size(75, 31)
-        btnQuit.TabIndex = 14
-        btnQuit.Text = "Quit"
-        btnQuit.UseVisualStyleBackColor = True
-        ' 
-        ' btnNext
-        ' 
-        btnNext.Font = New Font("Baskerville Old Face", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnNext.Location = New Point(713, 380)
-        btnNext.Name = "btnNext"
-        btnNext.Size = New Size(75, 29)
-        btnNext.TabIndex = 15
-        btnNext.Text = "Next"
-        btnNext.UseVisualStyleBackColor = True
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(77, 135)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 20
-        ' 
-        ' TextBox2
-        ' 
-        TextBox2.Location = New Point(584, 135)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(100, 23)
-        TextBox2.TabIndex = 21
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = My.Resources.Resources.reverse_arrows
-        PictureBox1.Location = New Point(338, 72)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(109, 60)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 22
-        PictureBox1.TabStop = False
-        ' 
-        ' lblFrom
-        ' 
-        lblFrom.AutoSize = True
-        lblFrom.Location = New Point(77, 72)
-        lblFrom.Name = "lblFrom"
-        lblFrom.Size = New Size(38, 15)
-        lblFrom.TabIndex = 23
-        lblFrom.Text = "From:"
-        ' 
-        ' lblTo
-        ' 
-        lblTo.AutoSize = True
-        lblTo.Location = New Point(584, 72)
-        lblTo.Name = "lblTo"
-        lblTo.Size = New Size(22, 15)
-        lblTo.TabIndex = 24
-        lblTo.Text = "To:"
-        ' 
-        ' lblAny1
-        ' 
-        lblAny1.AutoSize = True
-        lblAny1.Location = New Point(77, 117)
-        lblAny1.Name = "lblAny1"
-        lblAny1.Size = New Size(31, 15)
-        lblAny1.TabIndex = 25
-        lblAny1.Text = "Any:"
-        ' 
-        ' lblAny2
-        ' 
-        lblAny2.AutoSize = True
-        lblAny2.Location = New Point(584, 117)
-        lblAny2.Name = "lblAny2"
-        lblAny2.Size = New Size(31, 15)
-        lblAny2.TabIndex = 26
-        lblAny2.Text = "Any:"
-        ' 
-        ' ComboBoxAny1
-        ' 
-        ComboBoxAny1.FormattingEnabled = True
-        ComboBoxAny1.Location = New Point(77, 164)
-        ComboBoxAny1.Name = "ComboBoxAny1"
-        ComboBoxAny1.Size = New Size(157, 23)
-        ComboBoxAny1.TabIndex = 27
-        ComboBoxAny1.Text = " Choose your Currency "
-        ' 
-        ' ComboBoxAny2
-        ' 
-        ComboBoxAny2.FormattingEnabled = True
-        ComboBoxAny2.Location = New Point(584, 164)
-        ComboBoxAny2.Name = "ComboBoxAny2"
-        ComboBoxAny2.Size = New Size(152, 23)
-        ComboBoxAny2.TabIndex = 28
-        ComboBoxAny2.Text = "Choose your Currency"
-        ' 
-        ' Button1
-        ' 
-        Button1.Font = New Font("Bodoni MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Button1.Location = New Point(80, 213)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(154, 76)
-        Button1.TabIndex = 29
-        Button1.Text = "Convert Any currency to Any currency"
-        Button1.UseVisualStyleBackColor = True
-        ' 
-        ' btnConvertAny2toAny1
-        ' 
-        btnConvertAny2toAny1.Font = New Font("Bodoni MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        btnConvertAny2toAny1.Location = New Point(582, 213)
-        btnConvertAny2toAny1.Name = "btnConvertAny2toAny1"
-        btnConvertAny2toAny1.Size = New Size(154, 76)
-        btnConvertAny2toAny1.TabIndex = 30
-        btnConvertAny2toAny1.Text = "Convert Any currency to Any Currency"
-        btnConvertAny2toAny1.UseVisualStyleBackColor = True
-        ' 
-        ' btnReset
-        ' 
-        btnReset.Font = New Font("Georgia Pro Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        btnReset.Location = New Point(338, 246)
-        btnReset.Name = "btnReset"
-        btnReset.Size = New Size(109, 43)
-        btnReset.TabIndex = 31
-        btnReset.Text = "Reset"
-        btnReset.UseVisualStyleBackColor = True
-        ' 
-        ' Choose2
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
-        Controls.Add(btnReset)
-        Controls.Add(btnConvertAny2toAny1)
-        Controls.Add(Button1)
-        Controls.Add(ComboBoxAny2)
-        Controls.Add(ComboBoxAny1)
-        Controls.Add(lblAny2)
-        Controls.Add(lblAny1)
-        Controls.Add(lblTo)
-        Controls.Add(lblFrom)
-        Controls.Add(PictureBox1)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
-        Controls.Add(btnNext)
-        Controls.Add(btnQuit)
-        Name = "Choose2"
-        Text = "Form4"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        ResumeLayout(False)
-        PerformLayout()
+        Me.btnQuit = New System.Windows.Forms.Button()
+        Me.btnNext = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.lblFrom = New System.Windows.Forms.Label()
+        Me.lblTo = New System.Windows.Forms.Label()
+        Me.lblAny1 = New System.Windows.Forms.Label()
+        Me.lblAny2 = New System.Windows.Forms.Label()
+        Me.ComboBoxAny1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBoxAny2 = New System.Windows.Forms.ComboBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnConvertAny2toAny1 = New System.Windows.Forms.Button()
+        Me.btnReset = New System.Windows.Forms.Button()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'btnQuit
+        '
+        Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnQuit.Location = New System.Drawing.Point(713, 415)
+        Me.btnQuit.Name = "btnQuit"
+        Me.btnQuit.Size = New System.Drawing.Size(75, 31)
+        Me.btnQuit.TabIndex = 14
+        Me.btnQuit.Text = "Quit"
+        Me.btnQuit.UseVisualStyleBackColor = True
+        '
+        'btnNext
+        '
+        Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnNext.Location = New System.Drawing.Point(713, 380)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(75, 29)
+        Me.btnNext.TabIndex = 15
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(77, 135)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox1.TabIndex = 20
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(584, 135)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 23)
+        Me.TextBox2.TabIndex = 21
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.reverse_arrows
+        Me.PictureBox1.Location = New System.Drawing.Point(338, 72)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(109, 60)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 22
+        Me.PictureBox1.TabStop = False
+        '
+        'lblFrom
+        '
+        Me.lblFrom.AutoSize = True
+        Me.lblFrom.Location = New System.Drawing.Point(77, 72)
+        Me.lblFrom.Name = "lblFrom"
+        Me.lblFrom.Size = New System.Drawing.Size(38, 15)
+        Me.lblFrom.TabIndex = 23
+        Me.lblFrom.Text = "From:"
+        '
+        'lblTo
+        '
+        Me.lblTo.AutoSize = True
+        Me.lblTo.Location = New System.Drawing.Point(584, 72)
+        Me.lblTo.Name = "lblTo"
+        Me.lblTo.Size = New System.Drawing.Size(22, 15)
+        Me.lblTo.TabIndex = 24
+        Me.lblTo.Text = "To:"
+        '
+        'lblAny1
+        '
+        Me.lblAny1.AutoSize = True
+        Me.lblAny1.Location = New System.Drawing.Point(77, 117)
+        Me.lblAny1.Name = "lblAny1"
+        Me.lblAny1.Size = New System.Drawing.Size(31, 15)
+        Me.lblAny1.TabIndex = 25
+        Me.lblAny1.Text = "Any:"
+        '
+        'lblAny2
+        '
+        Me.lblAny2.AutoSize = True
+        Me.lblAny2.Location = New System.Drawing.Point(584, 117)
+        Me.lblAny2.Name = "lblAny2"
+        Me.lblAny2.Size = New System.Drawing.Size(31, 15)
+        Me.lblAny2.TabIndex = 26
+        Me.lblAny2.Text = "Any:"
+        '
+        'ComboBoxAny1
+        '
+        Me.ComboBoxAny1.FormattingEnabled = True
+        Me.ComboBoxAny1.Location = New System.Drawing.Point(77, 164)
+        Me.ComboBoxAny1.Name = "ComboBoxAny1"
+        Me.ComboBoxAny1.Size = New System.Drawing.Size(157, 23)
+        Me.ComboBoxAny1.TabIndex = 27
+        Me.ComboBoxAny1.Text = " Choose your Currency "
+        '
+        'ComboBoxAny2
+        '
+        Me.ComboBoxAny2.FormattingEnabled = True
+        Me.ComboBoxAny2.Location = New System.Drawing.Point(584, 164)
+        Me.ComboBoxAny2.Name = "ComboBoxAny2"
+        Me.ComboBoxAny2.Size = New System.Drawing.Size(152, 23)
+        Me.ComboBoxAny2.TabIndex = 28
+        Me.ComboBoxAny2.Text = "Choose your Currency"
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.Location = New System.Drawing.Point(80, 213)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(154, 76)
+        Me.Button1.TabIndex = 29
+        Me.Button1.Text = "Convert Any currency to Any currency"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'btnConvertAny2toAny1
+        '
+        Me.btnConvertAny2toAny1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnConvertAny2toAny1.Location = New System.Drawing.Point(582, 213)
+        Me.btnConvertAny2toAny1.Name = "btnConvertAny2toAny1"
+        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(154, 76)
+        Me.btnConvertAny2toAny1.TabIndex = 30
+        Me.btnConvertAny2toAny1.Text = "Convert Any currency to Any Currency"
+        Me.btnConvertAny2toAny1.UseVisualStyleBackColor = True
+        '
+        'btnReset
+        '
+        Me.btnReset.Font = New System.Drawing.Font("Georgia Pro Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnReset.Location = New System.Drawing.Point(338, 246)
+        Me.btnReset.Name = "btnReset"
+        Me.btnReset.Size = New System.Drawing.Size(109, 43)
+        Me.btnReset.TabIndex = 31
+        Me.btnReset.Text = "Reset"
+        Me.btnReset.UseVisualStyleBackColor = True
+        '
+        'frmchkChoose2
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnReset)
+        Me.Controls.Add(Me.btnConvertAny2toAny1)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ComboBoxAny2)
+        Me.Controls.Add(Me.ComboBoxAny1)
+        Me.Controls.Add(Me.lblAny2)
+        Me.Controls.Add(Me.lblAny1)
+        Me.Controls.Add(Me.lblTo)
+        Me.Controls.Add(Me.lblFrom)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnNext)
+        Me.Controls.Add(Me.btnQuit)
+        Me.Name = "frmchkChoose2"
+        Me.Text = "frmchkChoose2"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
