@@ -29,7 +29,6 @@ Partial Class FrmQuestion1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.chkChoose1 = New System.Windows.Forms.CheckBox()
         Me.chkChoose2 = New System.Windows.Forms.CheckBox()
-        Me.btnNext = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -105,22 +104,11 @@ Partial Class FrmQuestion1
         Me.chkChoose2.Text = "Choose 2"
         Me.chkChoose2.UseVisualStyleBackColor = True
         '
-        'btnNext
-        '
-        Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(713, 372)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 29)
-        Me.btnNext.TabIndex = 12
-        Me.btnNext.Text = "Next"
-        Me.btnNext.UseVisualStyleBackColor = True
-        '
         'FrmQuestion1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.chkChoose2)
         Me.Controls.Add(Me.chkChoose1)
         Me.Controls.Add(Me.PictureBox1)
@@ -143,5 +131,4 @@ Partial Class FrmQuestion1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents chkChoose1 As CheckBox
     Friend WithEvents chkChoose2 As CheckBox
-    Friend WithEvents btnNext As Button
 End Class

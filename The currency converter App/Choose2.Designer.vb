@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmchkChoose2
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class FrmchkChoose2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmchkChoose2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.btnNext = New System.Windows.Forms.Button()
@@ -97,7 +97,7 @@ Partial Class frmchkChoose2
         Me.lblTo.AutoSize = True
         Me.lblTo.Location = New System.Drawing.Point(584, 72)
         Me.lblTo.Name = "lblTo"
-        Me.lblTo.Size = New System.Drawing.Size(22, 15)
+        Me.lblTo.Size = New System.Drawing.Size(23, 15)
         Me.lblTo.TabIndex = 24
         Me.lblTo.Text = "To:"
         '
@@ -157,7 +157,7 @@ Partial Class frmchkChoose2
         '
         'btnReset
         '
-        Me.btnReset.Font = New System.Drawing.Font("Georgia Pro Semibold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.btnReset.Location = New System.Drawing.Point(338, 246)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(109, 43)
@@ -165,7 +165,7 @@ Partial Class frmchkChoose2
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
         '
-        'frmchkChoose2
+        'FrmchkChoose2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -184,7 +184,7 @@ Partial Class frmchkChoose2
         Me.Controls.Add(Me.txtAmountAny1)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.btnQuit)
-        Me.Name = "frmchkChoose2"
+        Me.Name = "FrmchkChoose2"
         Me.Text = "frmchkChoose2"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

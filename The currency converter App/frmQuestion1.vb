@@ -4,18 +4,24 @@
 
     End Sub
 
-    Private Sub BtnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
-        frmQuestion2.Show()
-        Me.Hide()
-    End Sub
-
     Private Sub ChkChoose1_CheckedChanged(sender As Object, e As EventArgs) Handles chkChoose1.CheckedChanged
-        FrmchkChoose1.Show()
-        Me.Hide()
+
+        If chkChoose1.Checked Then
+            FrmQuestion2.Show()
+
+            Me.Hide()
+        End If
+
+        If chkChoose2.Checked Then
+            FrmQuestion2.Show()
+
+            Me.Hide()
+        End If
     End Sub
 
     Private Sub ChkChoose2_CheckedChanged(sender As Object, e As EventArgs) Handles chkChoose2.CheckedChanged
-        frmchkChoose2.Show()
+        FrmQuestion2.Show()
         Me.Hide()
+
     End Sub
 End Class

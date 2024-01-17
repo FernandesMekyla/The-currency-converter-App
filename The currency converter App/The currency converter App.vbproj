@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>The_currency_converter_App</RootNamespace>
-    <StartupObject>The_currency_converter_App.The_currency_converter_App.Choose1</StartupObject>
+    <StartupObject>The_currency_converter_App.FrmQuestion1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyName>The currency converter App</AssemblyName>
     <MyType>WindowsFormsWithCustomSubMain</MyType>
