@@ -24,7 +24,7 @@ Partial Class FrmchkChoose1
     Private Sub InitializeComponent()
         Me.lblFrom = New System.Windows.Forms.Label()
         Me.lblTo = New System.Windows.Forms.Label()
-        Me.Textbox1 = New System.Windows.Forms.TextBox()
+        Me.txtGBP = New System.Windows.Forms.TextBox()
         Me.btnNext = New System.Windows.Forms.Button()
         Me.btnQuit = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -32,14 +32,16 @@ Partial Class FrmchkChoose1
         Me.btnConverttoAnyCurrency = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.lblResult = New System.Windows.Forms.Label()
+        Me.txtAny = New System.Windows.Forms.TextBox()
+        Me.btnConvertToGBPCurrency = New System.Windows.Forms.Button()
+        Me.lblAny = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblFrom
         '
         Me.lblFrom.AutoSize = True
-        Me.lblFrom.Location = New System.Drawing.Point(91, 87)
+        Me.lblFrom.Location = New System.Drawing.Point(79, 87)
         Me.lblFrom.Name = "lblFrom"
         Me.lblFrom.Size = New System.Drawing.Size(38, 15)
         Me.lblFrom.TabIndex = 2
@@ -50,16 +52,16 @@ Partial Class FrmchkChoose1
         Me.lblTo.AutoSize = True
         Me.lblTo.Location = New System.Drawing.Point(579, 87)
         Me.lblTo.Name = "lblTo"
-        Me.lblTo.Size = New System.Drawing.Size(23, 15)
+        Me.lblTo.Size = New System.Drawing.Size(22, 15)
         Me.lblTo.TabIndex = 3
         Me.lblTo.Text = "To:"
         '
-        'Textbox1
+        'txtGBP
         '
-        Me.Textbox1.Location = New System.Drawing.Point(91, 147)
-        Me.Textbox1.Name = "Textbox1"
-        Me.Textbox1.Size = New System.Drawing.Size(100, 23)
-        Me.Textbox1.TabIndex = 7
+        Me.txtGBP.Location = New System.Drawing.Point(79, 147)
+        Me.txtGBP.Name = "txtGBP"
+        Me.txtGBP.Size = New System.Drawing.Size(100, 23)
+        Me.txtGBP.TabIndex = 7
         '
         'btnNext
         '
@@ -95,7 +97,7 @@ Partial Class FrmchkChoose1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"GBP"})
-        Me.ComboBox1.Location = New System.Drawing.Point(91, 176)
+        Me.ComboBox1.Location = New System.Drawing.Point(79, 176)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(149, 23)
         Me.ComboBox1.TabIndex = 15
@@ -123,28 +125,46 @@ Partial Class FrmchkChoose1
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Choose Your Currency", "USA Dollars", "Euros", "Canadian Dollar", "Rupees", "Swiss Franc", "Won", "Yen"})
+        Me.ComboBox2.Items.AddRange(New Object() {"Choose Your Currency", "US Dollars", "Euros", "Canadian Dollar", "Rupees", "Swiss Franc", "Won", "Yen"})
         Me.ComboBox2.Location = New System.Drawing.Point(579, 176)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(149, 23)
         Me.ComboBox2.TabIndex = 19
         '
-        'lblResult
+        'txtAny
         '
-        Me.lblResult.AutoSize = True
-        Me.lblResult.Font = New System.Drawing.Font("Baskerville Old Face", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblResult.Location = New System.Drawing.Point(522, 136)
-        Me.lblResult.Name = "lblResult"
-        Me.lblResult.Size = New System.Drawing.Size(63, 22)
-        Me.lblResult.TabIndex = 20
-        Me.lblResult.Text = "Result:"
+        Me.txtAny.Location = New System.Drawing.Point(579, 147)
+        Me.txtAny.Name = "txtAny"
+        Me.txtAny.Size = New System.Drawing.Size(100, 23)
+        Me.txtAny.TabIndex = 20
+        '
+        'btnConvertToGBPCurrency
+        '
+        Me.btnConvertToGBPCurrency.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnConvertToGBPCurrency.Location = New System.Drawing.Point(579, 205)
+        Me.btnConvertToGBPCurrency.Name = "btnConvertToGBPCurrency"
+        Me.btnConvertToGBPCurrency.Size = New System.Drawing.Size(140, 55)
+        Me.btnConvertToGBPCurrency.TabIndex = 21
+        Me.btnConvertToGBPCurrency.Text = "Convert To GBP Currency"
+        Me.btnConvertToGBPCurrency.UseVisualStyleBackColor = True
+        '
+        'lblAny
+        '
+        Me.lblAny.AutoSize = True
+        Me.lblAny.Location = New System.Drawing.Point(583, 127)
+        Me.lblAny.Name = "lblAny"
+        Me.lblAny.Size = New System.Drawing.Size(28, 15)
+        Me.lblAny.TabIndex = 22
+        Me.lblAny.Text = "Any"
         '
         'FrmchkChoose1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(762, 524)
-        Me.Controls.Add(Me.lblResult)
+        Me.Controls.Add(Me.lblAny)
+        Me.Controls.Add(Me.btnConvertToGBPCurrency)
+        Me.Controls.Add(Me.txtAny)
         Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnConverttoAnyCurrency)
@@ -152,7 +172,7 @@ Partial Class FrmchkChoose1
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.btnNext)
-        Me.Controls.Add(Me.Textbox1)
+        Me.Controls.Add(Me.txtGBP)
         Me.Controls.Add(Me.lblTo)
         Me.Controls.Add(Me.lblFrom)
         Me.Name = "FrmchkChoose1"
@@ -165,7 +185,7 @@ Partial Class FrmchkChoose1
 
     Friend WithEvents lblFrom As Label
     Friend WithEvents lblTo As Label
-    Friend WithEvents Textbox1 As TextBox
+    Friend WithEvents txtGBP As TextBox
     Friend WithEvents btnNext As Button
     Friend WithEvents btnQuit As Button
     Friend WithEvents PictureBox1 As PictureBox
@@ -173,5 +193,7 @@ Partial Class FrmchkChoose1
     Friend WithEvents btnConverttoAnyCurrency As Button
     Friend WithEvents btnReset As Button
     Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents lblResult As Label
+    Friend WithEvents txtAny As TextBox
+    Friend WithEvents btnConvertToGBPCurrency As Button
+    Friend WithEvents lblAny As Label
 End Class
