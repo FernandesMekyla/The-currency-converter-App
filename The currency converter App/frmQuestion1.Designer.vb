@@ -35,47 +35,47 @@ Partial Class FrmQuestion1
         'lblWelcomeTo
         '
         Me.lblWelcomeTo.AutoSize = True
-        Me.lblWelcomeTo.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblWelcomeTo.Font = New System.Drawing.Font("Segoe UI", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblWelcomeTo.Location = New System.Drawing.Point(81, 48)
         Me.lblWelcomeTo.Name = "lblWelcomeTo"
-        Me.lblWelcomeTo.Size = New System.Drawing.Size(124, 25)
+        Me.lblWelcomeTo.Size = New System.Drawing.Size(160, 32)
         Me.lblWelcomeTo.TabIndex = 0
         Me.lblWelcomeTo.Text = "Welcome To:"
         '
         'btnQuit
         '
-        Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(713, 407)
+        Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnQuit.Location = New System.Drawing.Point(825, 502)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(75, 31)
+        Me.btnQuit.Size = New System.Drawing.Size(91, 44)
         Me.btnQuit.TabIndex = 4
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
         '
         'txtChoose1
         '
-        Me.txtChoose1.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtChoose1.Location = New System.Drawing.Point(188, 169)
+        Me.txtChoose1.Font = New System.Drawing.Font("Baskerville Old Face", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.txtChoose1.Location = New System.Drawing.Point(240, 224)
         Me.txtChoose1.Name = "txtChoose1"
-        Me.txtChoose1.Size = New System.Drawing.Size(351, 26)
+        Me.txtChoose1.Size = New System.Drawing.Size(457, 31)
         Me.txtChoose1.TabIndex = 5
         Me.txtChoose1.Text = "Choose Option 1 if you want to convert GBP To Any."
         '
         'txtChoose2
         '
-        Me.txtChoose2.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtChoose2.Location = New System.Drawing.Point(188, 248)
+        Me.txtChoose2.Font = New System.Drawing.Font("Baskerville Old Face", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.txtChoose2.Location = New System.Drawing.Point(240, 290)
         Me.txtChoose2.Name = "txtChoose2"
-        Me.txtChoose2.Size = New System.Drawing.Size(351, 26)
+        Me.txtChoose2.Size = New System.Drawing.Size(457, 31)
         Me.txtChoose2.TabIndex = 6
         Me.txtChoose2.Text = "Choose Option 1 if you want to convert Any To Any."
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.logo_for_app
-        Me.PictureBox1.Location = New System.Drawing.Point(211, 48)
+        Me.PictureBox1.Location = New System.Drawing.Point(268, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(204, 102)
+        Me.PictureBox1.Size = New System.Drawing.Size(291, 142)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
@@ -84,10 +84,10 @@ Partial Class FrmQuestion1
         '
         Me.chkChoose1.Appearance = System.Windows.Forms.Appearance.Button
         Me.chkChoose1.AutoSize = True
-        Me.chkChoose1.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.chkChoose1.Location = New System.Drawing.Point(81, 173)
+        Me.chkChoose1.Font = New System.Drawing.Font("Baskerville Old Face", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.chkChoose1.Location = New System.Drawing.Point(81, 224)
         Me.chkChoose1.Name = "chkChoose1"
-        Me.chkChoose1.Size = New System.Drawing.Size(78, 28)
+        Me.chkChoose1.Size = New System.Drawing.Size(112, 37)
         Me.chkChoose1.TabIndex = 10
         Me.chkChoose1.Text = "Choose 1"
         Me.chkChoose1.UseVisualStyleBackColor = True
@@ -96,10 +96,10 @@ Partial Class FrmQuestion1
         '
         Me.chkChoose2.Appearance = System.Windows.Forms.Appearance.Button
         Me.chkChoose2.AutoSize = True
-        Me.chkChoose2.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.chkChoose2.Location = New System.Drawing.Point(81, 248)
+        Me.chkChoose2.Font = New System.Drawing.Font("Baskerville Old Face", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.chkChoose2.Location = New System.Drawing.Point(81, 281)
         Me.chkChoose2.Name = "chkChoose2"
-        Me.chkChoose2.Size = New System.Drawing.Size(78, 28)
+        Me.chkChoose2.Size = New System.Drawing.Size(112, 37)
         Me.chkChoose2.TabIndex = 11
         Me.chkChoose2.Text = "Choose 2"
         Me.chkChoose2.UseVisualStyleBackColor = True
@@ -108,7 +108,7 @@ Partial Class FrmQuestion1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(928, 558)
         Me.Controls.Add(Me.chkChoose2)
         Me.Controls.Add(Me.chkChoose1)
         Me.Controls.Add(Me.PictureBox1)

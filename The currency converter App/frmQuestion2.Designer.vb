@@ -35,10 +35,10 @@ Partial Class FrmQuestion2
         'lblWelcomeTo
         '
         Me.lblWelcomeTo.AutoSize = True
-        Me.lblWelcomeTo.Font = New System.Drawing.Font("Bell MT", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblWelcomeTo.Font = New System.Drawing.Font("Bell MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblWelcomeTo.Location = New System.Drawing.Point(102, 63)
         Me.lblWelcomeTo.Name = "lblWelcomeTo"
-        Me.lblWelcomeTo.Size = New System.Drawing.Size(142, 29)
+        Me.lblWelcomeTo.Size = New System.Drawing.Size(159, 31)
         Me.lblWelcomeTo.TabIndex = 1
         Me.lblWelcomeTo.Text = "Welcome to"
         '
@@ -46,7 +46,7 @@ Partial Class FrmQuestion2
         '
         Me.lblUserName.AutoSize = True
         Me.lblUserName.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblUserName.Location = New System.Drawing.Point(215, 183)
+        Me.lblUserName.Location = New System.Drawing.Point(215, 212)
         Me.lblUserName.Name = "lblUserName"
         Me.lblUserName.Size = New System.Drawing.Size(341, 28)
         Me.lblUserName.TabIndex = 2
@@ -54,17 +54,17 @@ Partial Class FrmQuestion2
         '
         'txtName
         '
-        Me.txtName.Location = New System.Drawing.Point(240, 214)
+        Me.txtName.Location = New System.Drawing.Point(177, 262)
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(262, 23)
+        Me.txtName.Size = New System.Drawing.Size(416, 23)
         Me.txtName.TabIndex = 6
         '
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(713, 350)
+        Me.btnNext.Location = New System.Drawing.Point(812, 436)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 29)
+        Me.btnNext.Size = New System.Drawing.Size(75, 38)
         Me.btnNext.TabIndex = 8
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -72,9 +72,9 @@ Partial Class FrmQuestion2
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(713, 417)
+        Me.btnQuit.Location = New System.Drawing.Point(812, 526)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(75, 31)
+        Me.btnQuit.Size = New System.Drawing.Size(75, 39)
         Me.btnQuit.TabIndex = 10
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -82,9 +82,9 @@ Partial Class FrmQuestion2
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.logo_for_app
-        Me.PictureBox1.Location = New System.Drawing.Point(250, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(291, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(236, 136)
+        Me.PictureBox1.Size = New System.Drawing.Size(288, 170)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
@@ -92,9 +92,9 @@ Partial Class FrmQuestion2
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnBack.Location = New System.Drawing.Point(713, 385)
+        Me.btnBack.Location = New System.Drawing.Point(812, 480)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(75, 27)
+        Me.btnBack.Size = New System.Drawing.Size(75, 40)
         Me.btnBack.TabIndex = 14
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
@@ -103,7 +103,7 @@ Partial Class FrmQuestion2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(899, 577)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnQuit)
