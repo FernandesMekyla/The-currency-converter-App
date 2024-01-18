@@ -123,6 +123,7 @@ Partial Class FrmchkChoose2
         'ComboBoxAny1
         '
         Me.ComboBoxAny1.FormattingEnabled = True
+        Me.ComboBoxAny1.Items.AddRange(New Object() {"Choose Your Currency", "Won", "Yen", "Swiss Franc", "USD", "Euro", "Canadian Dollar", "GBP"})
         Me.ComboBoxAny1.Location = New System.Drawing.Point(77, 164)
         Me.ComboBoxAny1.Name = "ComboBoxAny1"
         Me.ComboBoxAny1.Size = New System.Drawing.Size(157, 23)
@@ -131,6 +132,7 @@ Partial Class FrmchkChoose2
         'ComboBoxAny2
         '
         Me.ComboBoxAny2.FormattingEnabled = True
+        Me.ComboBoxAny2.Items.AddRange(New Object() {"Choose Your Currency", "Australian Dollar", "Polish Zloty", "Pakistan Rupee", "Baht", "New Zealand Dollar", "Forint", "DKK ", "UAH"})
         Me.ComboBoxAny2.Location = New System.Drawing.Point(584, 164)
         Me.ComboBoxAny2.Name = "ComboBoxAny2"
         Me.ComboBoxAny2.Size = New System.Drawing.Size(152, 23)
