@@ -102,4 +102,14 @@
             txtGBP.Text = 187.29 / 1.0
         End If
     End Sub
+
+    Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        FrmThankyouPage.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        FrmQuestion1.Show()
+        Me.Hide()
+    End Sub
 End Class

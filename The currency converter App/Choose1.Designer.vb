@@ -34,6 +34,7 @@ Partial Class FrmchkChoose1
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.txtAny = New System.Windows.Forms.TextBox()
         Me.btnConvertToGBPCurrency = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -67,9 +68,9 @@ Partial Class FrmchkChoose1
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(846, 434)
+        Me.btnNext.Location = New System.Drawing.Point(846, 435)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(101, 53)
+        Me.btnNext.Size = New System.Drawing.Size(101, 38)
         Me.btnNext.TabIndex = 12
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -77,9 +78,9 @@ Partial Class FrmchkChoose1
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(846, 512)
+        Me.btnQuit.Location = New System.Drawing.Point(846, 524)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(101, 52)
+        Me.btnQuit.Size = New System.Drawing.Size(101, 39)
         Me.btnQuit.TabIndex = 13
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -149,11 +150,22 @@ Partial Class FrmchkChoose1
         Me.btnConvertToGBPCurrency.Text = "Convert To GBP Currency"
         Me.btnConvertToGBPCurrency.UseVisualStyleBackColor = True
         '
+        'btnBack
+        '
+        Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnBack.Location = New System.Drawing.Point(846, 479)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(101, 39)
+        Me.btnBack.TabIndex = 22
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
+        '
         'FrmchkChoose1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(992, 595)
+        Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnConvertToGBPCurrency)
         Me.Controls.Add(Me.txtAny)
         Me.Controls.Add(Me.ComboBox2)
@@ -186,4 +198,5 @@ Partial Class FrmchkChoose1
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents txtAny As TextBox
     Friend WithEvents btnConvertToGBPCurrency As Button
+    Friend WithEvents btnBack As Button
 End Class

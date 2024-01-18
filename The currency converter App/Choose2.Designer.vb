@@ -36,15 +36,16 @@ Partial Class FrmchkChoose2
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btnConvertAny2toAny1 = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(713, 415)
+        Me.btnQuit.Location = New System.Drawing.Point(713, 512)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(75, 31)
+        Me.btnQuit.Size = New System.Drawing.Size(86, 44)
         Me.btnQuit.TabIndex = 14
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -52,9 +53,9 @@ Partial Class FrmchkChoose2
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(713, 380)
+        Me.btnNext.Location = New System.Drawing.Point(713, 418)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 29)
+        Me.btnNext.Size = New System.Drawing.Size(86, 40)
         Me.btnNext.TabIndex = 15
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -97,7 +98,7 @@ Partial Class FrmchkChoose2
         Me.lblTo.AutoSize = True
         Me.lblTo.Location = New System.Drawing.Point(584, 72)
         Me.lblTo.Name = "lblTo"
-        Me.lblTo.Size = New System.Drawing.Size(23, 15)
+        Me.lblTo.Size = New System.Drawing.Size(22, 15)
         Me.lblTo.TabIndex = 24
         Me.lblTo.Text = "To:"
         '
@@ -165,11 +166,22 @@ Partial Class FrmchkChoose2
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
         '
+        'btnBack
+        '
+        Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnBack.Location = New System.Drawing.Point(713, 464)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(86, 42)
+        Me.btnBack.TabIndex = 32
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
+        '
         'FrmchkChoose2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(820, 568)
+        Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnConvertAny2toAny1)
         Me.Controls.Add(Me.Button1)
@@ -206,4 +218,5 @@ Partial Class FrmchkChoose2
     Friend WithEvents Button1 As Button
     Friend WithEvents btnConvertAny2toAny1 As Button
     Friend WithEvents btnReset As Button
+    Friend WithEvents btnBack As Button
 End Class
