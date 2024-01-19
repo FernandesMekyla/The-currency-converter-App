@@ -35,6 +35,7 @@ Partial Class FrmchkChoose1
         Me.txtAny = New System.Windows.Forms.TextBox()
         Me.btnConvertToGBPCurrency = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -160,11 +161,21 @@ Partial Class FrmchkChoose1
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
         '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 15
+        Me.ListBox1.Location = New System.Drawing.Point(53, 377)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(163, 154)
+        Me.ListBox1.TabIndex = 23
+        '
         'FrmchkChoose1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(992, 595)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnConvertToGBPCurrency)
         Me.Controls.Add(Me.txtAny)
@@ -199,4 +210,5 @@ Partial Class FrmchkChoose1
     Friend WithEvents txtAny As TextBox
     Friend WithEvents btnConvertToGBPCurrency As Button
     Friend WithEvents btnBack As Button
+    Friend WithEvents ListBox1 As ListBox
 End Class

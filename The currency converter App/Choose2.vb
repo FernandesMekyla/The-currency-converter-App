@@ -99,6 +99,35 @@
             txtAmountAny2.Text = txtAmountAny1.Text * 0.028
         End If
 
+        If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Australian Dollar" Then
+            AUD = Yen * 0.01
+            txtAmountAny2.Text = txtAmountAny1.Text * 0.01
+        End If
+
+        If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Plosih Zloty" Then
+            PLN = Yen * 0.027
+            txtAmountAny2.Text = txtAmountAny1.Text * 0.027
+        End If
+
+        If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Pakistan Rupee" Then
+            PKR = Yen * 1.89
+            txtAmountAny2.Text = txtAmountAny1.Text * 1.89
+        End If
+
+        If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Forint" Then
+            HUF = Yen * 2.37
+            txtAmountAny2.Text = txtAmountAny1.Text * 2.37
+        End If
+
+        If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "DKK" Then
+            DKK = Yen * 0.046
+            txtAmountAny2.Text = txtAmountAny1.Text * 0.046
+        End If
+
+        If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "UAH" Then
+            UAH = Yen * 0.25
+            txtAmountAny2.Text = txtAmountAny1.Text * 0.25
+        End If
 
 
     End Sub
