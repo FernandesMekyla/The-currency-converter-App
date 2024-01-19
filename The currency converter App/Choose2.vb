@@ -114,6 +114,11 @@
             txtAmountAny2.Text = txtAmountAny1.Text * 1.89
         End If
 
+        If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Baht" Then
+            THB = Yen * 0.24
+            txtAmountAny2.Text = txtAmountAny1.Text * 0.24
+        End If
+
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Forint" Then
             HUF = Yen * 2.37
             txtAmountAny2.Text = txtAmountAny1.Text * 2.37
@@ -129,6 +134,39 @@
             txtAmountAny2.Text = txtAmountAny1.Text * 0.25
         End If
 
+        If ComboBoxAny1.Text = "Swiss Franc" And ComboBoxAny2.Text = "Australian Dollar" Then
+            AUD = CHF * 1.75
+            txtAmountAny2.Text = txtAmountAny1.Text * 1.75
+        End If
 
+        If ComboBoxAny1.Text = "Swiss Franc" And ComboBoxAny2.Text = "Polish Zloty" Then
+            PLN = CHF * 4.61
+            txtAmountAny2.Text = txtAmountAny1.Text * 4.61
+        End If
+
+        If ComboBoxAny1.Text = "Swiss Franc" And ComboBoxAny2.Text = "Baht" Then
+            THB = CHF * 40.85
+            txtAmountAny2.Text = txtAmountAny1.Text * 40.85
+        End If
+
+        If ComboBoxAny1.Text = "Swiss Franc" And ComboBoxAny2.Text = "Pakistan Rupee" Then
+            PKR = CHF * 321.83
+            txtAmountAny2.Text = txtAmountAny1.Text * 321.83
+        End If
+
+        If ComboBoxAny1.Text = "Swis Franc" And ComboBoxAny2.Text = "Forint" Then
+            UAH = CHF * 403.76
+            txtAmountAny2.Text = txtAmountAny1.Text * 403.76
+        End If
+
+        If ComboBoxAny1.Text = "Swiss Franc" And ComboBoxAny2.Text = "DKK" Then
+            DKK = CHF * 7.88
+            txtAmountAny2.Text = txtAmountAny1.Text * 7.88
+        End If
+
+        If ComboBoxAny1.Text = "Swiss Franc" And ComboBoxAny2.Text = "UAH" Then
+            UAH = CHF * 43.13
+            txtAmountAny2.Text = txtAmountAny1.Text * 43.13
+        End If
     End Sub
 End Class

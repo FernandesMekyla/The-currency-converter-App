@@ -67,7 +67,7 @@
 
     Private Sub btnConvertToGBPCurrency_Click(sender As Object, e As EventArgs) Handles btnConvertToGBPCurrency.Click
 
-        If ComboBox2.Text = "US Dollars" And ComboBox1.Text = "GBP" Then
+        If ComboBox2.Text = "US Dollar" And ComboBox1.Text = "GBP" Then
             USD = 1.206 / 1.0
             txtGBP.Text = 1.206 / 1.0
         End If
@@ -77,9 +77,9 @@
             txtGBP.Text = 1.17 / 1.0
         End If
 
-        If ComboBox2.Text = "Canadian Dollars" And ComboBox1.Text = "GBP" Then
-            CAD = 1.71 / 1.0
-            txtGBP.Text = 1.71 / 1.0
+        If ComboBox2.Text = "Canadian Dollar" And ComboBox1.Text = "GBP" Then
+            CAD = 1.0 * 0.59
+            txtGBP.Text = 1.0 * 0.59
         End If
 
         If ComboBox2.Text = "Rupees" And ComboBox1.Text = "GBP" Then
