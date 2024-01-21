@@ -26,15 +26,16 @@ Partial Class FrmThankyouPage
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnQuit = New System.Windows.Forms.Button()
+        Me.btnNext = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.logo_for_app
-        Me.PictureBox1.Location = New System.Drawing.Point(268, 35)
+        Me.PictureBox1.Location = New System.Drawing.Point(268, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(294, 180)
+        Me.PictureBox1.Size = New System.Drawing.Size(322, 225)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 8
         Me.PictureBox1.TabStop = False
@@ -42,38 +43,49 @@ Partial Class FrmThankyouPage
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Californian FB", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Font = New System.Drawing.Font("Californian FB", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label1.Location = New System.Drawing.Point(353, 258)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 24)
+        Me.Label1.Size = New System.Drawing.Size(161, 33)
         Me.Label1.TabIndex = 17
         Me.Label1.Text = "Thankyou!!!!"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Californian FB", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Font = New System.Drawing.Font("Californian FB", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(184, 300)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(435, 24)
+        Me.Label2.Size = New System.Drawing.Size(593, 33)
         Me.Label2.TabIndex = 18
         Me.Label2.Text = "Successful, Thankyou for usiong World Money!!!"
         '
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(713, 415)
+        Me.btnQuit.Location = New System.Drawing.Point(829, 480)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(75, 30)
+        Me.btnQuit.Size = New System.Drawing.Size(75, 38)
         Me.btnQuit.TabIndex = 19
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
+        '
+        'btnNext
+        '
+        Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnNext.Location = New System.Drawing.Point(829, 436)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(75, 38)
+        Me.btnNext.TabIndex = 20
+        Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
         '
         'FrmThankyouPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(916, 530)
+        Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -90,4 +102,5 @@ Partial Class FrmThankyouPage
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents btnQuit As Button
+    Friend WithEvents btnNext As Button
 End Class

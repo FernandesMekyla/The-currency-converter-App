@@ -3,7 +3,8 @@
         Application.Exit()
     End Sub
 
-    Private Sub FrmThankyouPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        FrmQuestion1.Show()
+        Me.Hide()
     End Sub
 End Class

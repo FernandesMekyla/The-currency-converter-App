@@ -169,4 +169,8 @@
             txtAmountAny2.Text = txtAmountAny1.Text * 43.13
         End If
     End Sub
+
+    Private Sub btnConvertAny2toAny1_Click(sender As Object, e As EventArgs) Handles btnConvertAny2toAny1.Click
+
+    End Sub
 End Class

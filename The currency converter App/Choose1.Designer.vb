@@ -63,7 +63,7 @@ Partial Class FrmchkChoose1
         '
         Me.txtGBP.Location = New System.Drawing.Point(79, 176)
         Me.txtGBP.Name = "txtGBP"
-        Me.txtGBP.Size = New System.Drawing.Size(194, 23)
+        Me.txtGBP.Size = New System.Drawing.Size(211, 23)
         Me.txtGBP.TabIndex = 7
         '
         'btnNext
@@ -102,7 +102,7 @@ Partial Class FrmchkChoose1
         Me.ComboBox1.Items.AddRange(New Object() {"GBP"})
         Me.ComboBox1.Location = New System.Drawing.Point(79, 222)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(194, 23)
+        Me.ComboBox1.Size = New System.Drawing.Size(211, 23)
         Me.ComboBox1.TabIndex = 15
         '
         'btnConverttoAnyCurrency
@@ -110,7 +110,7 @@ Partial Class FrmchkChoose1
         Me.btnConverttoAnyCurrency.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnConverttoAnyCurrency.Location = New System.Drawing.Point(79, 265)
         Me.btnConverttoAnyCurrency.Name = "btnConverttoAnyCurrency"
-        Me.btnConverttoAnyCurrency.Size = New System.Drawing.Size(194, 85)
+        Me.btnConverttoAnyCurrency.Size = New System.Drawing.Size(211, 106)
         Me.btnConverttoAnyCurrency.TabIndex = 16
         Me.btnConverttoAnyCurrency.Text = "Convert To Any Currency"
         Me.btnConverttoAnyCurrency.UseVisualStyleBackColor = True
@@ -118,7 +118,7 @@ Partial Class FrmchkChoose1
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(338, 364)
+        Me.btnReset.Location = New System.Drawing.Point(349, 358)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(129, 57)
         Me.btnReset.TabIndex = 18
@@ -131,14 +131,14 @@ Partial Class FrmchkChoose1
         Me.ComboBox2.Items.AddRange(New Object() {"Choose Your Currency", "US Dollars", "Euros", "Canadian Dollar", "Rupees", "Swiss Franc", "Won", "Yen"})
         Me.ComboBox2.Location = New System.Drawing.Point(588, 222)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(194, 23)
+        Me.ComboBox2.Size = New System.Drawing.Size(212, 23)
         Me.ComboBox2.TabIndex = 19
         '
         'txtAny
         '
         Me.txtAny.Location = New System.Drawing.Point(588, 176)
         Me.txtAny.Name = "txtAny"
-        Me.txtAny.Size = New System.Drawing.Size(194, 23)
+        Me.txtAny.Size = New System.Drawing.Size(212, 23)
         Me.txtAny.TabIndex = 20
         '
         'btnConvertToGBPCurrency
@@ -146,7 +146,7 @@ Partial Class FrmchkChoose1
         Me.btnConvertToGBPCurrency.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnConvertToGBPCurrency.Location = New System.Drawing.Point(588, 265)
         Me.btnConvertToGBPCurrency.Name = "btnConvertToGBPCurrency"
-        Me.btnConvertToGBPCurrency.Size = New System.Drawing.Size(194, 85)
+        Me.btnConvertToGBPCurrency.Size = New System.Drawing.Size(212, 94)
         Me.btnConvertToGBPCurrency.TabIndex = 21
         Me.btnConvertToGBPCurrency.Text = "Convert To GBP Currency"
         Me.btnConvertToGBPCurrency.UseVisualStyleBackColor = True
@@ -165,7 +165,7 @@ Partial Class FrmchkChoose1
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 15
-        Me.ListBox1.Location = New System.Drawing.Point(53, 377)
+        Me.ListBox1.Location = New System.Drawing.Point(37, 409)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(163, 154)
         Me.ListBox1.TabIndex = 23

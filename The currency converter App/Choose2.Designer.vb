@@ -43,9 +43,9 @@ Partial Class FrmchkChoose2
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(989, 621)
+        Me.btnQuit.Location = New System.Drawing.Point(989, 595)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(86, 44)
+        Me.btnQuit.Size = New System.Drawing.Size(86, 35)
         Me.btnQuit.TabIndex = 14
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -53,9 +53,9 @@ Partial Class FrmchkChoose2
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(989, 527)
+        Me.btnNext.Location = New System.Drawing.Point(989, 518)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(86, 40)
+        Me.btnNext.Size = New System.Drawing.Size(86, 30)
         Me.btnNext.TabIndex = 15
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -145,9 +145,9 @@ Partial Class FrmchkChoose2
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(80, 265)
+        Me.Button1.Location = New System.Drawing.Point(77, 269)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(197, 107)
+        Me.Button1.Size = New System.Drawing.Size(200, 107)
         Me.Button1.TabIndex = 29
         Me.Button1.Text = "Convert Any currency to Any currency"
         Me.Button1.UseVisualStyleBackColor = True
@@ -157,7 +157,7 @@ Partial Class FrmchkChoose2
         Me.btnConvertAny2toAny1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnConvertAny2toAny1.Location = New System.Drawing.Point(697, 269)
         Me.btnConvertAny2toAny1.Name = "btnConvertAny2toAny1"
-        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(197, 98)
+        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(219, 117)
         Me.btnConvertAny2toAny1.TabIndex = 30
         Me.btnConvertAny2toAny1.Text = "Convert Any currency to Any Currency"
         Me.btnConvertAny2toAny1.UseVisualStyleBackColor = True
@@ -165,7 +165,7 @@ Partial Class FrmchkChoose2
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(383, 315)
+        Me.btnReset.Location = New System.Drawing.Point(416, 319)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(132, 57)
         Me.btnReset.TabIndex = 31
@@ -175,9 +175,9 @@ Partial Class FrmchkChoose2
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnBack.Location = New System.Drawing.Point(989, 573)
+        Me.btnBack.Location = New System.Drawing.Point(989, 554)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(86, 42)
+        Me.btnBack.Size = New System.Drawing.Size(86, 35)
         Me.btnBack.TabIndex = 32
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
@@ -186,7 +186,7 @@ Partial Class FrmchkChoose2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1087, 677)
+        Me.ClientSize = New System.Drawing.Size(1087, 642)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnConvertAny2toAny1)

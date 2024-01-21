@@ -25,38 +25,38 @@
     Private Sub BtnConverttoAnyCurrency_Click(sender As Object, e As EventArgs) Handles btnConverttoAnyCurrency.Click
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "US Dollars" Then
-            USD = GBP * 1.206
-            txtAny.Text = txtGBP.Text * 1.206
+            USD = 1.0 * 1.27
+            txtAny.Text = txtGBP.Text * 1.27
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Euros" Then
-            Euros = GBP * 1.17
+            Euros = 1.0 * 1.17
             txtAny.Text = txtGBP.Text * 1.17
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Canadian Dollar" Then
-            CAD = GBP * 1.71
+            CAD = 1.0 * 1.71
             txtAny.Text = txtGBP.Text * 1.71
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Rupees" Then
-            Rupees = GBP * 105.4
-            txtAny.Text = txtGBP.Text * 105.4
+            Rupees = 1.0 * 105.52
+            txtAny.Text = txtGBP.Text * 105.52
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Swiss Franc" Then
-            CHF = GBP * 1.1
+            CHF = 1.0 * 1.1
             txtAny.Text = txtGBP.Text * 1.1
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Won" Then
-            Won = GBP * 1705.2
-            txtAny.Text = txtGBP.Text * 1705.2
+            Won = 1.0 * 1693.75
+            txtAny.Text = txtGBP.Text * 1693.75
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Yen" Then
-            Yen = GBP * 187.29
-            txtAny.Text = txtGBP.Text * 187.29
+            Yen = 1.0 * 188.14
+            txtAny.Text = txtGBP.Text * 188.14
         End If
     End Sub
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
@@ -68,37 +68,38 @@
     Private Sub btnConvertToGBPCurrency_Click(sender As Object, e As EventArgs) Handles btnConvertToGBPCurrency.Click
 
         If ComboBox2.Text = "US Dollar" And ComboBox1.Text = "GBP" Then
-            USD = 1.0 * 0.79
+            GBP = 1.0 * 0.79
             txtGBP.Text = 1.0 * 0.79
+
         End If
 
         If ComboBox2.Text = "Euros" And ComboBox1.Text = "GBP" Then
-            Euros = 1.0 * 0.86
+            GBP = 1.0 * 0.86
             txtGBP.Text = 1.0 * 0.86
         End If
 
         If ComboBox2.Text = "Canadian Dollar" And ComboBox1.Text = "GBP" Then
-            CAD = 1.0 * 0.59
+            GBP = 1.0 * 0.59
             txtGBP.Text = 1.0 * 0.59
         End If
 
         If ComboBox2.Text = "Rupees" And ComboBox1.Text = "GBP" Then
-            Rupees = 1.0 * 0.0095
+            GBP = 1.0 * 0.0095
             txtGBP.Text = 1.0 * 0.0095
         End If
 
         If ComboBox2.Text = "CHF" And ComboBox1.Text = "GBP" Then
-            CHF = 1.0 * 0.91
+            GBP = 1.0 * 0.91
             txtGBP.Text = 1.0 * 0.91
         End If
 
         If ComboBox2.Text = "Won" And ComboBox1.Text = "GBP" Then
-            Won = 1.0 * 0.00059
+            GBP = 1.0 * 0.00059
             txtGBP.Text = 1.0 * 0.00059
         End If
 
         If ComboBox2.Text = "Yen" And ComboBox1.Text = "GBP" Then
-            Yen = 1.0 * 0.0053
+            GBP = 1.0 * 0.0053
             txtGBP.Text = 1.0 * 0.0053
         End If
     End Sub

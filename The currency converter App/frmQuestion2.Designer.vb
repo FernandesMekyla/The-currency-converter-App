@@ -35,28 +35,28 @@ Partial Class FrmQuestion2
         'lblWelcomeTo
         '
         Me.lblWelcomeTo.AutoSize = True
-        Me.lblWelcomeTo.Font = New System.Drawing.Font("Bell MT", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblWelcomeTo.Location = New System.Drawing.Point(102, 63)
+        Me.lblWelcomeTo.Font = New System.Drawing.Font("Bell MT", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblWelcomeTo.Location = New System.Drawing.Point(85, 72)
         Me.lblWelcomeTo.Name = "lblWelcomeTo"
-        Me.lblWelcomeTo.Size = New System.Drawing.Size(159, 31)
+        Me.lblWelcomeTo.Size = New System.Drawing.Size(172, 34)
         Me.lblWelcomeTo.TabIndex = 1
         Me.lblWelcomeTo.Text = "Welcome to"
         '
         'lblUserName
         '
         Me.lblUserName.AutoSize = True
-        Me.lblUserName.Font = New System.Drawing.Font("Cambria", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblUserName.Location = New System.Drawing.Point(215, 212)
+        Me.lblUserName.Font = New System.Drawing.Font("Cambria", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.lblUserName.Location = New System.Drawing.Point(190, 231)
         Me.lblUserName.Name = "lblUserName"
-        Me.lblUserName.Size = New System.Drawing.Size(341, 28)
+        Me.lblUserName.Size = New System.Drawing.Size(410, 34)
         Me.lblUserName.TabIndex = 2
         Me.lblUserName.Text = "Please Enter Your Name Here:"
         '
         'txtName
         '
-        Me.txtName.Location = New System.Drawing.Point(177, 262)
+        Me.txtName.Location = New System.Drawing.Point(155, 286)
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(416, 23)
+        Me.txtName.Size = New System.Drawing.Size(474, 23)
         Me.txtName.TabIndex = 6
         '
         'btnNext
@@ -84,7 +84,7 @@ Partial Class FrmQuestion2
         Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.logo_for_app
         Me.PictureBox1.Location = New System.Drawing.Point(291, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(288, 170)
+        Me.PictureBox1.Size = New System.Drawing.Size(322, 189)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
