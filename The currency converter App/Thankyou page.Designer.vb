@@ -26,7 +26,7 @@ Partial Class FrmThankyouPage
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnQuit = New System.Windows.Forms.Button()
-        Me.btnNext = New System.Windows.Forms.Button()
+        Me.btnBack = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -70,22 +70,22 @@ Partial Class FrmThankyouPage
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
         '
-        'btnNext
+        'btnBack
         '
-        Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(829, 436)
-        Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 38)
-        Me.btnNext.TabIndex = 20
-        Me.btnNext.Text = "Next"
-        Me.btnNext.UseVisualStyleBackColor = True
+        Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnBack.Location = New System.Drawing.Point(829, 434)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(75, 40)
+        Me.btnBack.TabIndex = 20
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
         '
         'FrmThankyouPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(916, 530)
-        Me.Controls.Add(Me.btnNext)
+        Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnQuit)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -102,5 +102,5 @@ Partial Class FrmThankyouPage
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents btnQuit As Button
-    Friend WithEvents btnNext As Button
+    Friend WithEvents btnBack As Button
 End Class
