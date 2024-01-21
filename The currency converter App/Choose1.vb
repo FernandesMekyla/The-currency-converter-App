@@ -66,42 +66,41 @@
     End Sub
 
     Private Sub btnConvertToGBPCurrency_Click(sender As Object, e As EventArgs) Handles btnConvertToGBPCurrency.Click
-
-        If ComboBox2.Text = "US Dollar" And ComboBox1.Text = "GBP" Then
-            GBP = 1.0 * 0.79
-            txtGBP.Text = 1.0 * 0.79
-
+        If ComboBox2.Text = "USD" And ComboBox1.Text = "GBP" Then
+            USD = 1.0 * 1.27
+            txtAny.Text = txtGBP.Text * 1.27
         End If
 
         If ComboBox2.Text = "Euros" And ComboBox1.Text = "GBP" Then
-            GBP = 1.0 * 0.86
-            txtGBP.Text = 1.0 * 0.86
+            Euros = 1.0 * 1.17
+            txtAny.Text = txtGBP.Text * 1.17
         End If
 
-        If ComboBox2.Text = "Canadian Dollar" And ComboBox1.Text = "GBP" Then
-            GBP = 1.0 * 0.59
-            txtGBP.Text = 1.0 * 0.59
+        If ComboBox2.Text = "CAD" And ComboBox1.Text = "GBP" Then
+            CAD = 1.0 * 1.71
+            txtAny.Text = txtGBP.Text * 1.71
         End If
 
         If ComboBox2.Text = "Rupees" And ComboBox1.Text = "GBP" Then
-            GBP = 1.0 * 0.0095
-            txtGBP.Text = 1.0 * 0.0095
+            Rupees = 1.0 * 105.52
+            txtAny.Text = txtGBP.Text * 105.52
         End If
 
         If ComboBox2.Text = "CHF" And ComboBox1.Text = "GBP" Then
-            GBP = 1.0 * 0.91
-            txtGBP.Text = 1.0 * 0.91
+            CHF = 1.0 * 1.1
+            txtAny.Text = txtGBP.Text * 1.1
         End If
 
         If ComboBox2.Text = "Won" And ComboBox1.Text = "GBP" Then
-            GBP = 1.0 * 0.00059
-            txtGBP.Text = 1.0 * 0.00059
+            Won = 1.0 * 1693.75
+            txtAny.Text = txtGBP.Text * 1693.75
         End If
 
         If ComboBox2.Text = "Yen" And ComboBox1.Text = "GBP" Then
-            GBP = 1.0 * 0.0053
-            txtGBP.Text = 1.0 * 0.0053
+            Yen = 1.0 * 188.14
+            txtAny.Text = txtGBP.Text * 188.14
         End If
+
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
