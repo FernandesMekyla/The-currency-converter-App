@@ -333,7 +333,7 @@
             txtAmountAny2.Text = txtAmountAny1.Text * 47.57
         End If
 
-        If ComboBoxAny1.Text = "GBP" And ComboBoxAny2.Text Then
+        If ComboBoxAny1.Text = "GBP" And ComboBoxAny2.Text = "Forint" Then
             HUF = GBP * 447.22
             txtAmountAny2.Text = txtAmountAny1.Text * 477.22
         End If
