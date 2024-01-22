@@ -381,46 +381,6 @@
 
     Private Sub btnConvertAny2toAny1_Click(sender As Object, e As EventArgs) Handles btnConvertAny2toAny1.Click
 
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
-        If ComboBoxAny1.Text = "Australian Dollar" And ComboBoxAny2.Text = "" Then
-             = AUD * 
-            txtAmountAny1.Text = txtAmountAny2.Text * 
-        End If
-
 
 
 
