@@ -36,7 +36,7 @@
         ComboBoxAny1.Items.Add("Yen")
         ComboBoxAny1.Items.Add("Swiss Franc")
         ComboBoxAny1.Items.Add("US Dollars")
-        ComboBoxAny1.Items.Add("Euro")
+        ComboBoxAny1.Items.Add("Euros")
         ComboBoxAny1.Items.Add("Canadian Dollar")
         ComboBoxAny1.Items.Add("GBP")
         ComboBoxAny1.Items.Add("Rupees")
