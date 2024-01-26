@@ -33,7 +33,7 @@ Partial Class FrmchkChoose2
         Me.lblAny2 = New System.Windows.Forms.Label()
         Me.ComboBoxAny1 = New System.Windows.Forms.ComboBox()
         Me.ComboBoxAny2 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.BtnConvertAny1ToAny2 = New System.Windows.Forms.Button()
         Me.btnConvertAny2toAny1 = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
@@ -142,15 +142,15 @@ Partial Class FrmchkChoose2
         Me.ComboBoxAny2.Size = New System.Drawing.Size(187, 23)
         Me.ComboBoxAny2.TabIndex = 28
         '
-        'Button1
+        'BtnConvertAny1ToAny2
         '
-        Me.Button1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(77, 269)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(200, 107)
-        Me.Button1.TabIndex = 29
-        Me.Button1.Text = "Convert Any currency to Any currency"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnConvertAny1ToAny2.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.BtnConvertAny1ToAny2.Location = New System.Drawing.Point(77, 269)
+        Me.BtnConvertAny1ToAny2.Name = "BtnConvertAny1ToAny2"
+        Me.BtnConvertAny1ToAny2.Size = New System.Drawing.Size(200, 107)
+        Me.BtnConvertAny1ToAny2.TabIndex = 29
+        Me.BtnConvertAny1ToAny2.Text = "Convert Any currency to Any currency"
+        Me.BtnConvertAny1ToAny2.UseVisualStyleBackColor = True
         '
         'btnConvertAny2toAny1
         '
@@ -190,7 +190,7 @@ Partial Class FrmchkChoose2
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnConvertAny2toAny1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.BtnConvertAny1ToAny2)
         Me.Controls.Add(Me.ComboBoxAny2)
         Me.Controls.Add(Me.ComboBoxAny1)
         Me.Controls.Add(Me.lblAny2)
@@ -221,7 +221,7 @@ Partial Class FrmchkChoose2
     Friend WithEvents lblAny2 As Label
     Friend WithEvents ComboBoxAny1 As ComboBox
     Friend WithEvents ComboBoxAny2 As ComboBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents BtnConvertAny1ToAny2 As Button
     Friend WithEvents btnConvertAny2toAny1 As Button
     Friend WithEvents btnReset As Button
     Friend WithEvents btnBack As Button

@@ -56,9 +56,9 @@ Partial Class FrmThankyouPage
         Me.Label2.Font = New System.Drawing.Font("Californian FB", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(184, 300)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(593, 33)
+        Me.Label2.Size = New System.Drawing.Size(579, 33)
         Me.Label2.TabIndex = 18
-        Me.Label2.Text = "Successful, Thankyou for usiong World Money!!!"
+        Me.Label2.Text = "Successful, Thankyou for using World Money!!!"
         '
         'btnQuit
         '

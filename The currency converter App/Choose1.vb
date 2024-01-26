@@ -2,12 +2,12 @@
     Dim Any As Decimal
     Dim GBP As Decimal
     Dim USD As Decimal
-    Dim Euros As Decimal
+    Dim Euro As Decimal
     Dim CAD As Decimal
-    Dim Rupees As Decimal
+    Dim INR As Decimal
     Dim CHF As Decimal
-    Dim Won As Decimal
-    Dim Yen As Decimal
+    Dim KRW As Decimal
+    Dim JPY As Decimal
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         Application.Exit()
 
@@ -30,17 +30,17 @@
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Euros" Then
-            Euros = 1.0 * 1.17
+            Euro = 1.0 * 1.17
             txtAny.Text = txtGBP.Text * 1.17
         End If
 
-        If ComboBox1.Text = "GBP" And ComboBox2.Text = "Canadian Dollars" Then
+        If ComboBox1.Text = "GBP" And ComboBox2.Text = "Canadian Dollar" Then
             CAD = 1.0 * 1.71
             txtAny.Text = txtGBP.Text * 1.71
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Rupees" Then
-            Rupees = 1.0 * 105.52
+            INR = 1.0 * 105.52
             txtAny.Text = txtGBP.Text * 105.52
         End If
 
@@ -50,12 +50,12 @@
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Won" Then
-            Won = 1.0 * 1693.75
+            KRW = 1.0 * 1693.75
             txtAny.Text = txtGBP.Text * 1693.75
         End If
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "Yen" Then
-            Yen = 1.0 * 188.14
+            JPY = 1.0 * 188.14
             txtAny.Text = txtGBP.Text * 188.14
         End If
     End Sub
@@ -72,7 +72,7 @@
         End If
 
         If ComboBox2.Text = "Euros" And ComboBox1.Text = "GBP" Then
-            Euros = 1.0 * 0.86
+            Euro = 1.0 * 0.86
             txtGBP.Text = txtAny.Text * 0.86
         End If
 
@@ -82,7 +82,7 @@
         End If
 
         If ComboBox2.Text = "Rupees" And ComboBox1.Text = "GBP" Then
-            Rupees = 1.0 * 0.0095
+            INR = 1.0 * 0.0095
             txtGBP.Text = txtAny.Text * 0.0095
         End If
 
@@ -92,12 +92,12 @@
         End If
 
         If ComboBox2.Text = "Won" And ComboBox1.Text = "GBP" Then
-            Won = 1.0 * 0.00059
+            KRW = 1.0 * 0.00059
             txtGBP.Text = txtAny.Text * 0.00059
         End If
 
         If ComboBox2.Text = "Yen" And ComboBox1.Text = "GBP" Then
-            Yen = 1.0 * 0.0053
+            JPY = 1.0 * 0.0053
             txtGBP.Text = txtAny.Text * 0.0053
         End If
 
@@ -111,9 +111,5 @@
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         FrmQuestion1.Show()
         Me.Hide()
-    End Sub
-
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-
     End Sub
 End Class

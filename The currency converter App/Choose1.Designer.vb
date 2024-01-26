@@ -118,9 +118,9 @@ Partial Class FrmchkChoose1
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(349, 358)
+        Me.btnReset.Location = New System.Drawing.Point(378, 341)
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(129, 57)
+        Me.btnReset.Size = New System.Drawing.Size(119, 51)
         Me.btnReset.TabIndex = 18
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
@@ -167,7 +167,7 @@ Partial Class FrmchkChoose1
         Me.ListBox1.ItemHeight = 15
         Me.ListBox1.Location = New System.Drawing.Point(37, 409)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(163, 154)
+        Me.ListBox1.Size = New System.Drawing.Size(279, 169)
         Me.ListBox1.TabIndex = 23
         '
         'FrmchkChoose1

@@ -2,12 +2,12 @@
     Dim Any As Decimal
     Dim GBP As Decimal
     Dim USD As Decimal
-    Dim Euros As Decimal
+    Dim Euro As Decimal
     Dim CAD As Decimal
     Dim INR As Decimal
     Dim CHF As Decimal
-    Dim Won As Decimal
-    Dim Yen As Decimal
+    Dim KRW As Decimal
+    Dim JPY As Decimal
     Dim AUD As Decimal
     Dim PLN As Decimal
     Dim PKR As Decimal
@@ -43,7 +43,7 @@
     End Sub
 
     Private Sub ComboBoxAny2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxAny2.SelectedIndexChanged
-        ComboBoxAny2.Items.Add("AUD")
+        ComboBoxAny2.Items.Add("Australian Dollar")
         ComboBoxAny2.Items.Add("Polish Zloty")
         ComboBoxAny2.Items.Add("Pakistan Rupee")
         ComboBoxAny2.Items.Add("Baht")
@@ -58,85 +58,85 @@
         Me.Hide()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnConvertAny1ToAny2.Click
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "Australian Dollar" Then
-            AUD = Won * 0.0011
+            AUD = KRW * 0.0011
             txtAmountAny2.Text = txtAmountAny1.Text * 0.0011
         End If
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "Polish Zloty" Then
-            PLN = Won * 0.003
+            PLN = KRW * 0.003
             txtAmountAny2.Text = txtAmountAny1.Text * 0.003
         End If
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "Pakistan Rupee" Then
-            PKR = Won * 0.2
+            PKR = KRW * 0.2
             txtAmountAny2.Text = txtAmountAny1.Text * 0.2
         End If
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "Baht" Then
-            THB = Won * 0.027
+            THB = KRW * 0.027
             txtAmountAny2.Text = txtAmountAny1.Text * 0.027
         End If
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "New Zealand Dollar" Then
-            NZD = Won * 0.0012
+            NZD = KRW * 0.0012
             txtAmountAny2.Text = txtAmountAny1.Text * 0.0012
         End If
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "Forint" Then
-            HUF = Won * 0.26
+            HUF = KRW * 0.26
             txtAmountAny2.Text = txtAmountAny1.Text * 0.26
         End If
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "DKK" Then
-            DKK = Won * 0.0051
+            DKK = KRW * 0.0051
             txtAmountAny2.Text = txtAmountAny1.Text * 0.0051
         End If
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "UAH" Then
-            UAH = Won * 0.028
+            UAH = KRW * 0.028
             txtAmountAny2.Text = txtAmountAny1.Text * 0.028
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Australian Dollar" Then
-            AUD = Yen * 0.01
+            AUD = JPY * 0.01
             txtAmountAny2.Text = txtAmountAny1.Text * 0.01
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Polish Zloty" Then
-            PLN = Yen * 0.027
+            PLN = JPY * 0.027
             txtAmountAny2.Text = txtAmountAny1.Text * 0.027
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Pakistan Rupee" Then
-            PKR = Yen * 1.89
+            PKR = JPY * 1.89
             txtAmountAny2.Text = txtAmountAny1.Text * 1.89
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Baht" Then
-            THB = Yen * 0.24
+            THB = JPY * 0.24
             txtAmountAny2.Text = txtAmountAny1.Text * 0.24
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "Forint" Then
-            HUF = Yen * 2.37
+            HUF = JPY * 2.37
             txtAmountAny2.Text = txtAmountAny1.Text * 2.37
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "DKK" Then
-            DKK = Yen * 0.046
+            DKK = JPY * 0.046
             txtAmountAny2.Text = txtAmountAny1.Text * 0.046
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "UAH" Then
-            UAH = Yen * 0.25
+            UAH = JPY * 0.25
             txtAmountAny2.Text = txtAmountAny1.Text * 0.25
         End If
 
         If ComboBoxAny1.Text = "Yen" And ComboBoxAny2.Text = "New Zealand Dollar" Then
-            NZD = Yen * 0.0011
+            NZD = JPY * 0.0011
             txtAmountAny2.Text = txtAmountAny1.Text * 0.0011
         End If
 
@@ -339,90 +339,365 @@
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "Australian Dollar" Then
-            AUD = Euros * 1.66
+            AUD = Euro * 1.66
             txtAmountAny2.Text = txtAmountAny1.Text * 1.66
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "Polish Zloty" Then
-            PLN = Euros * 4.36
+            PLN = Euro * 4.36
             txtAmountAny2.Text = txtAmountAny1.Text * 4.36
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "Pakistan Rupee" Then
-            PKR = Euros * 303.91
+            PKR = Euro * 303.91
             txtAmountAny2.Text = txtAmountAny1.Text * 303.91
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "Baht" Then
-            THB = Euros * 38.76
+            THB = Euro * 38.76
             txtAmountAny2.Text = txtAmountAny1.Text * 38.76
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "New Zealand Dollar" Then
-            NZD = Euros * 1.79
+            NZD = Euro * 1.79
             txtAmountAny2.Text = txtAmountAny1.Text * 1.79
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "DKK" Then
-            DKK = Euros * 7.46
+            DKK = Euro * 7.46
             txtAmountAny2.Text = txtAmountAny1.Text * 7.46
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "UAH" Then
-            UAH = Euros * 40.74
+            UAH = Euro * 40.74
             txtAmountAny2.Text = txtAmountAny1.Text * 40.74
         End If
 
         If ComboBoxAny1.Text = "Euros" And ComboBoxAny2.Text = "Forint" Then
-            HUF = Euros * 383.17
+            HUF = Euro * 383.17
             txtAmountAny2.Text = txtAmountAny1.Text * 383.17
         End If
     End Sub
 
     Private Sub btnConvertAny2toAny1_Click(sender As Object, e As EventArgs) Handles btnConvertAny2toAny1.Click
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Won" Then
+            KRW = AUD * 878.55
+            txtAmountAny1.Text = txtAmountAny2.Text * 878.55
+        End If
 
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Yen" Then
+            JPY = AUD * 97.36
+            txtAmountAny1.Text = txtAmountAny2.Text * 97.36
+        End If
 
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = AUD * 0.57
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.57
+        End If
 
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "US Dollars" Then
+            USD = AUD * 0.66
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.66
+        End If
 
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = AUD * 0.89
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.89
+        End If
 
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "GBP" Then
+            GBP = AUD * 0.52
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.52
+        End If
 
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Euros" Then
+            Euro = AUD * 0.61
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.61
+        End If
 
+        If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Rupees" Then
+            INR = AUD * 54.69
+            txtAmountAny1.Text = txtAmountAny2.Text * 54.69
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "Rupees" Then
+            INR = PLN * 20.66
+            txtAmountAny1.Text = txtAmountAny2.Text * 20.66
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "Euros" Then
+            Euro = PLN * 0.23
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.23
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "GBP" Then
+            GBP = PLN * 0.2
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.2
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = PLN * 0.33
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.33
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "US Dollars" Then
+            USD = PLN * 0.25
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.25
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = PLN * 0.21
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.21
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "Yen" Then
+            JPY = PLN * 36.8
+            txtAmountAny1.Text = txtAmountAny2.Text * 36.8
+        End If
 
+        If ComboBoxAny2.Text = "Polish Zloty" And ComboBoxAny1.Text = "Won" Then
+            KRW = PLN * 332.0
+            txtAmountAny1.Text = txtAmountAny2.Text * 332.0
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "Won" Then
+            KRW = PKR * 4.76
+            txtAmountAny1.Text = txtAmountAny2.Text * 4.76
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "Yen" Then
+            JPY = PKR * 0.53
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.53
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = PKR * 0.0031
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0031
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "US Dollars" Then
+            USD = PKR * 0.0036
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0036
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = PKR * 0.0048
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0048
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "GBP" Then
+            GBP = PKR * 0.0028
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0028
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "Euros" Then
+            Euro = PKR * 0.0033
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0033
+        End If
 
+        If ComboBoxAny2.Text = "Pakistan Rupee" And ComboBoxAny1.Text = "Rupees" Then
+            INR = PKR * 0.3
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.3
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "Rupees" Then
+            INR = HUF * 0.23
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.23
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "Euros" Then
+            Euro = HUF * 0.0026
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0026
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = HUF * 0.0038
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0038
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "US Dollars" Then
+            USD = HUF * 0.0028
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0028
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "GBP" Then
+            GBP = HUF * 0.0022
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0022
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = HUF * 0.0024
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.0024
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "Yen" Then
+            JPY = HUF * 0.41
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.41
+        End If
 
+        If ComboBoxAny2.Text = "Forint" And ComboBoxAny1.Text = "Won" Then
+            KRW = HUF * 3.74
+            txtAmountAny1.Text = txtAmountAny2.Text * 3.74
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "US Dollars" Then
+            USD = THB * 0.028
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.028
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "Rupees" Then
+            INR = THB * 2.33
+            txtAmountAny1.Text = txtAmountAny2.Text * 2.33
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "GBP" Then
+            GBP = THB * 0.022
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.022
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = THB * 0.038
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.038
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "Euros" Then
+            Euro = THB * 0.026
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.026
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = THB * 0.024
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.024
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "Yen" Then
+            JPY = THB * 4.16
+            txtAmountAny1.Text = txtAmountAny2.Text * 4.16
+        End If
 
+        If ComboBoxAny2.Text = "Baht" And ComboBoxAny1.Text = "Won" Then
+            KRW = THB * 37.48
+            txtAmountAny1.Text = txtAmountAny2.Text * 37.48
+        End If
 
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "Yen" Then
+            JPY = NZD * 90.28
+            txtAmountAny1.Text = txtAmountAny2.Text * 90.28
+        End If
 
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "Won" Then
+            KRW = NZD * 813.82
+            txtAmountAny1.Text = txtAmountAny2.Text * 813.8
+        End If
 
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = NZD * 0.53
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.53
+        End If
 
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = NZD * 0.82
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.82
+        End If
 
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "US Dollars" Then
+            USD = NZD * 0.61
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.61
+        End If
+
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "GBP" Then
+            GBP = NZD * 0.48
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.48
+        End If
+
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "Rupees" Then
+            INR = NZD * 50.65
+            txtAmountAny1.Text = txtAmountAny2.Text * 50.65
+        End If
+
+        If ComboBoxAny2.Text = "New Zealand Dollar" And ComboBoxAny1.Text = "Euros" Then
+            Euro = NZD * 0.56
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.56
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "Won" Then
+            KRW = DKK * 194.43
+            txtAmountAny1.Text = txtAmountAny2.Text * 194.43
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "Yen" Then
+            JPY = DKK * 21.57
+            txtAmountAny1.Text = txtAmountAny2.Text * 21.57
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = DKK * 0.13
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.13
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = DKK * 0.2
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.2
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "GBP" Then
+            GBP = DKK * 0.11
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.11
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "US Dollars" Then
+            USD = DKK * 0.15
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.15
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "Rupees" Then
+            INR = DKK * 12.11
+            txtAmountAny1.Text = txtAmountAny2.Text * 12.11
+        End If
+
+        If ComboBoxAny2.Text = "DKK" And ComboBoxAny1.Text = "Euros" Then
+            Euro = DKK * 0.13
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.13
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "Won" Then
+            KRW = UAH * 35.27
+            txtAmountAny1.Text = txtAmountAny2.Text * 35.27
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "Yen" Then
+            JPY = UAH * 3.91
+            txtAmountAny1.Text = txtAmountAny2.Text * 3.91
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "Swiss Franc" Then
+            CHF = UAH * 0.023
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.023
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "Canadian Dollar" Then
+            CAD = UAH * 0.036
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.036
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "GBP" Then
+            GBP = UAH * 0.021
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.021
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "US Dollars " Then
+            USD = UAH * 0.026
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.026
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "Rupees" Then
+            INR = UAH * 2.2
+            txtAmountAny1.Text = txtAmountAny2.Text * 2.2
+        End If
+
+        If ComboBoxAny2.Text = "UAH" And ComboBoxAny1.Text = "Euros" Then
+            Euro = UAH * 0.024
+            txtAmountAny1.Text = txtAmountAny2.Text * 0.024
+        End If
     End Sub
 End Class
