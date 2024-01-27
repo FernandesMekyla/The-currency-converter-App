@@ -10,7 +10,6 @@
     Dim JPY As Decimal
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         Application.Exit()
-
     End Sub
     Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
         ComboBox2.Items.Add("US Dollars")
@@ -100,7 +99,6 @@
             JPY = 1.0 * 0.0053
             TextBoxGBP.Text = TextBoxAny.Text * 0.0053
         End If
-
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
