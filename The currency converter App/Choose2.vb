@@ -700,11 +700,19 @@
             TextBoxAmountAny1.Text = TextBoxAmountAny2.Text * 0.024
         End If
     End Sub
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-        ListBox1.Items.Add(TextBoxAmountAny1.Text)
-        ListBox1.Items.Add(TextBoxAmountAny2.Text)
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs)
+        ListBox3.Items.Add(TextBoxAmountAny1.Text)
+        ListBox3.Items.Add(TextBoxAmountAny2.Text)
     End Sub
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ListBox1.Items.Clear()
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
+        ListBox3.Items.Clear()
+    End Sub
+    Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles Button1.Click
+        ListBox4.Items.Add(TextBoxAmountAny2.Text)
+        ListBox4.Items.Add(TextBoxAmountAny1.Text)
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        ListBox4.Items.Clear()
     End Sub
 End Class

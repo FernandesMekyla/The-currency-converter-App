@@ -37,9 +37,12 @@ Partial Class FrmchkChoose2
         Me.btnConvertAny2toAny1 = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.ListBox4 = New System.Windows.Forms.ListBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -150,7 +153,7 @@ Partial Class FrmchkChoose2
         Me.BtnConvertAny1ToAny2.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.BtnConvertAny1ToAny2.Location = New System.Drawing.Point(120, 269)
         Me.BtnConvertAny1ToAny2.Name = "BtnConvertAny1ToAny2"
-        Me.BtnConvertAny1ToAny2.Size = New System.Drawing.Size(222, 107)
+        Me.BtnConvertAny1ToAny2.Size = New System.Drawing.Size(213, 65)
         Me.BtnConvertAny1ToAny2.TabIndex = 29
         Me.BtnConvertAny1ToAny2.Text = "Convert Any currency to Any currency"
         Me.BtnConvertAny1ToAny2.UseVisualStyleBackColor = True
@@ -160,7 +163,7 @@ Partial Class FrmchkChoose2
         Me.btnConvertAny2toAny1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnConvertAny2toAny1.Location = New System.Drawing.Point(1070, 269)
         Me.btnConvertAny2toAny1.Name = "btnConvertAny2toAny1"
-        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(219, 117)
+        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(219, 65)
         Me.btnConvertAny2toAny1.TabIndex = 30
         Me.btnConvertAny2toAny1.Text = "Convert Any currency to Any Currency"
         Me.btnConvertAny2toAny1.UseVisualStyleBackColor = True
@@ -168,9 +171,9 @@ Partial Class FrmchkChoose2
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(564, 329)
+        Me.btnReset.Location = New System.Drawing.Point(596, 296)
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(132, 57)
+        Me.btnReset.Size = New System.Drawing.Size(87, 38)
         Me.btnReset.TabIndex = 31
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
@@ -185,44 +188,77 @@ Partial Class FrmchkChoose2
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'ListBox3
         '
-        Me.ListBox1.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 21
-        Me.ListBox1.Location = New System.Drawing.Point(12, 495)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(321, 235)
-        Me.ListBox1.TabIndex = 33
+        Me.ListBox3.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ListBox3.FormattingEnabled = True
+        Me.ListBox3.ItemHeight = 21
+        Me.ListBox3.Location = New System.Drawing.Point(12, 429)
+        Me.ListBox3.Name = "ListBox3"
+        Me.ListBox3.Size = New System.Drawing.Size(321, 235)
+        Me.ListBox3.TabIndex = 33
         '
-        'Button1
+        'ListBox4
         '
-        Me.Button1.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(362, 495)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(126, 43)
-        Me.Button1.TabIndex = 34
-        Me.Button1.Text = "Add"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ListBox4.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.ListBox4.FormattingEnabled = True
+        Me.ListBox4.ItemHeight = 21
+        Me.ListBox4.Location = New System.Drawing.Point(758, 429)
+        Me.ListBox4.Name = "ListBox4"
+        Me.ListBox4.Size = New System.Drawing.Size(321, 235)
+        Me.ListBox4.TabIndex = 36
+        '
+        'Button3
+        '
+        Me.Button3.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button3.Location = New System.Drawing.Point(362, 429)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(101, 33)
+        Me.Button3.TabIndex = 37
+        Me.Button3.Text = "Add"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button2.Location = New System.Drawing.Point(362, 561)
+        Me.Button2.Location = New System.Drawing.Point(362, 468)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(126, 43)
-        Me.Button2.TabIndex = 35
+        Me.Button2.Size = New System.Drawing.Size(101, 36)
+        Me.Button2.TabIndex = 38
         Me.Button2.Text = "Clear"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.Location = New System.Drawing.Point(1095, 429)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(101, 33)
+        Me.Button1.TabIndex = 39
+        Me.Button1.Text = "Add"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button4.Location = New System.Drawing.Point(1095, 468)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(101, 36)
+        Me.Button4.TabIndex = 40
+        Me.Button4.Text = "Clear"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'FrmchkChoose2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1423, 751)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.ListBox4)
+        Me.Controls.Add(Me.ListBox3)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnReset)
         Me.Controls.Add(Me.btnConvertAny2toAny1)
@@ -261,7 +297,10 @@ Partial Class FrmchkChoose2
     Friend WithEvents btnConvertAny2toAny1 As Button
     Friend WithEvents btnReset As Button
     Friend WithEvents btnBack As Button
-    Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ListBox3 As ListBox
+    Friend WithEvents ListBox4 As ListBox
+    Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button4 As Button
 End Class
