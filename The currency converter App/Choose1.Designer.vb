@@ -48,7 +48,7 @@ Partial Class FrmchkChoose1
         '
         Me.lblFrom.AutoSize = True
         Me.lblFrom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblFrom.Location = New System.Drawing.Point(79, 129)
+        Me.lblFrom.Location = New System.Drawing.Point(79, 100)
         Me.lblFrom.Name = "lblFrom"
         Me.lblFrom.Size = New System.Drawing.Size(59, 25)
         Me.lblFrom.TabIndex = 2
@@ -58,7 +58,7 @@ Partial Class FrmchkChoose1
         '
         Me.lblTo.AutoSize = True
         Me.lblTo.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblTo.Location = New System.Drawing.Point(964, 129)
+        Me.lblTo.Location = New System.Drawing.Point(964, 100)
         Me.lblTo.Name = "lblTo"
         Me.lblTo.Size = New System.Drawing.Size(35, 25)
         Me.lblTo.TabIndex = 3
@@ -66,7 +66,7 @@ Partial Class FrmchkChoose1
         '
         'TextBoxGBP
         '
-        Me.TextBoxGBP.Location = New System.Drawing.Point(79, 176)
+        Me.TextBoxGBP.Location = New System.Drawing.Point(79, 134)
         Me.TextBoxGBP.Name = "TextBoxGBP"
         Me.TextBoxGBP.Size = New System.Drawing.Size(211, 23)
         Me.TextBoxGBP.TabIndex = 7
@@ -74,9 +74,9 @@ Partial Class FrmchkChoose1
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(1297, 621)
+        Me.btnNext.Location = New System.Drawing.Point(1209, 479)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(101, 38)
+        Me.btnNext.Size = New System.Drawing.Size(73, 30)
         Me.btnNext.TabIndex = 12
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -84,9 +84,9 @@ Partial Class FrmchkChoose1
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(1297, 710)
+        Me.btnQuit.Location = New System.Drawing.Point(1209, 549)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(101, 39)
+        Me.btnQuit.Size = New System.Drawing.Size(73, 28)
         Me.btnQuit.TabIndex = 13
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -94,9 +94,9 @@ Partial Class FrmchkChoose1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.reverse_arrows
-        Me.PictureBox1.Location = New System.Drawing.Point(548, 71)
+        Me.PictureBox1.Location = New System.Drawing.Point(539, 22)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(140, 83)
+        Me.PictureBox1.Size = New System.Drawing.Size(109, 62)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 14
         Me.PictureBox1.TabStop = False
@@ -105,7 +105,7 @@ Partial Class FrmchkChoose1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"GBP"})
-        Me.ComboBox1.Location = New System.Drawing.Point(79, 222)
+        Me.ComboBox1.Location = New System.Drawing.Point(79, 176)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(211, 23)
         Me.ComboBox1.TabIndex = 15
@@ -113,9 +113,9 @@ Partial Class FrmchkChoose1
         'btnConverttoAnyCurrency
         '
         Me.btnConverttoAnyCurrency.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnConverttoAnyCurrency.Location = New System.Drawing.Point(79, 265)
+        Me.btnConverttoAnyCurrency.Location = New System.Drawing.Point(79, 205)
         Me.btnConverttoAnyCurrency.Name = "btnConverttoAnyCurrency"
-        Me.btnConverttoAnyCurrency.Size = New System.Drawing.Size(197, 94)
+        Me.btnConverttoAnyCurrency.Size = New System.Drawing.Size(197, 40)
         Me.btnConverttoAnyCurrency.TabIndex = 16
         Me.btnConverttoAnyCurrency.Text = "Convert To Any Currency"
         Me.btnConverttoAnyCurrency.UseVisualStyleBackColor = True
@@ -123,9 +123,9 @@ Partial Class FrmchkChoose1
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(595, 320)
+        Me.btnReset.Location = New System.Drawing.Point(588, 212)
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(93, 39)
+        Me.btnReset.Size = New System.Drawing.Size(93, 33)
         Me.btnReset.TabIndex = 18
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
@@ -134,14 +134,14 @@ Partial Class FrmchkChoose1
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Choose Your Currency", "US Dollars", "Euros", "Canadian Dollar", "Rupees", "Swiss Franc", "Won", "Yen"})
-        Me.ComboBox2.Location = New System.Drawing.Point(964, 222)
+        Me.ComboBox2.Location = New System.Drawing.Point(964, 176)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(212, 23)
         Me.ComboBox2.TabIndex = 19
         '
         'TextBoxAny
         '
-        Me.TextBoxAny.Location = New System.Drawing.Point(964, 176)
+        Me.TextBoxAny.Location = New System.Drawing.Point(964, 134)
         Me.TextBoxAny.Name = "TextBoxAny"
         Me.TextBoxAny.Size = New System.Drawing.Size(212, 23)
         Me.TextBoxAny.TabIndex = 20
@@ -149,9 +149,9 @@ Partial Class FrmchkChoose1
         'btnConvertToGBPCurrency
         '
         Me.btnConvertToGBPCurrency.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnConvertToGBPCurrency.Location = New System.Drawing.Point(964, 265)
+        Me.btnConvertToGBPCurrency.Location = New System.Drawing.Point(964, 205)
         Me.btnConvertToGBPCurrency.Name = "btnConvertToGBPCurrency"
-        Me.btnConvertToGBPCurrency.Size = New System.Drawing.Size(212, 94)
+        Me.btnConvertToGBPCurrency.Size = New System.Drawing.Size(212, 40)
         Me.btnConvertToGBPCurrency.TabIndex = 21
         Me.btnConvertToGBPCurrency.Text = "Convert To GBP Currency"
         Me.btnConvertToGBPCurrency.UseVisualStyleBackColor = True
@@ -159,9 +159,9 @@ Partial Class FrmchkChoose1
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnBack.Location = New System.Drawing.Point(1297, 665)
+        Me.btnBack.Location = New System.Drawing.Point(1209, 515)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(101, 39)
+        Me.btnBack.Size = New System.Drawing.Size(73, 28)
         Me.btnBack.TabIndex = 22
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
@@ -171,17 +171,17 @@ Partial Class FrmchkChoose1
         Me.Listbox1.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Listbox1.FormattingEnabled = True
         Me.Listbox1.ItemHeight = 21
-        Me.Listbox1.Location = New System.Drawing.Point(12, 417)
+        Me.Listbox1.Location = New System.Drawing.Point(12, 266)
         Me.Listbox1.Name = "Listbox1"
-        Me.Listbox1.Size = New System.Drawing.Size(298, 214)
+        Me.Listbox1.Size = New System.Drawing.Size(264, 298)
         Me.Listbox1.TabIndex = 23
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(329, 417)
+        Me.Button1.Location = New System.Drawing.Point(282, 266)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(101, 33)
+        Me.Button1.Size = New System.Drawing.Size(64, 33)
         Me.Button1.TabIndex = 24
         Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = True
@@ -189,9 +189,9 @@ Partial Class FrmchkChoose1
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button2.Location = New System.Drawing.Point(329, 456)
+        Me.Button2.Location = New System.Drawing.Point(282, 305)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(101, 36)
+        Me.Button2.Size = New System.Drawing.Size(64, 36)
         Me.Button2.TabIndex = 25
         Me.Button2.Text = "Clear"
         Me.Button2.UseVisualStyleBackColor = True
@@ -201,17 +201,17 @@ Partial Class FrmchkChoose1
         Me.ListBox2.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.ItemHeight = 21
-        Me.ListBox2.Location = New System.Drawing.Point(808, 417)
+        Me.ListBox2.Location = New System.Drawing.Point(805, 251)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(299, 214)
+        Me.ListBox2.Size = New System.Drawing.Size(261, 319)
         Me.ListBox2.TabIndex = 26
         '
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.Location = New System.Drawing.Point(1127, 456)
+        Me.Button4.Location = New System.Drawing.Point(1072, 290)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(101, 36)
+        Me.Button4.Size = New System.Drawing.Size(66, 36)
         Me.Button4.TabIndex = 28
         Me.Button4.Text = "Clear"
         Me.Button4.UseVisualStyleBackColor = True
@@ -219,9 +219,9 @@ Partial Class FrmchkChoose1
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button3.Location = New System.Drawing.Point(1127, 417)
+        Me.Button3.Location = New System.Drawing.Point(1072, 251)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(101, 33)
+        Me.Button3.Size = New System.Drawing.Size(66, 33)
         Me.Button3.TabIndex = 29
         Me.Button3.Text = "Add"
         Me.Button3.UseVisualStyleBackColor = True
@@ -230,7 +230,7 @@ Partial Class FrmchkChoose1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1410, 761)
+        Me.ClientSize = New System.Drawing.Size(1294, 589)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.ListBox2)

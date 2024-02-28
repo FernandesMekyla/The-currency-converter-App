@@ -45,9 +45,9 @@ Partial Class FrmQuestion1
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(825, 502)
+        Me.btnQuit.Location = New System.Drawing.Point(849, 514)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(91, 44)
+        Me.btnQuit.Size = New System.Drawing.Size(67, 32)
         Me.btnQuit.TabIndex = 4
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True

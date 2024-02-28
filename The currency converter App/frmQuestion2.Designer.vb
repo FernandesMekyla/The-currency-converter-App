@@ -62,9 +62,9 @@ Partial Class FrmQuestion2
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(812, 436)
+        Me.btnNext.Location = New System.Drawing.Point(812, 458)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 38)
+        Me.btnNext.Size = New System.Drawing.Size(75, 27)
         Me.btnNext.TabIndex = 8
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
@@ -74,7 +74,7 @@ Partial Class FrmQuestion2
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnQuit.Location = New System.Drawing.Point(812, 526)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(75, 39)
+        Me.btnQuit.Size = New System.Drawing.Size(75, 28)
         Me.btnQuit.TabIndex = 10
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -92,9 +92,9 @@ Partial Class FrmQuestion2
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnBack.Location = New System.Drawing.Point(812, 480)
+        Me.btnBack.Location = New System.Drawing.Point(812, 491)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(75, 40)
+        Me.btnBack.Size = New System.Drawing.Size(75, 29)
         Me.btnBack.TabIndex = 14
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True

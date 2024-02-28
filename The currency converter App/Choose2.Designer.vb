@@ -49,7 +49,7 @@ Partial Class FrmchkChoose2
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(1325, 704)
+        Me.btnQuit.Location = New System.Drawing.Point(1165, 408)
         Me.btnQuit.Name = "btnQuit"
         Me.btnQuit.Size = New System.Drawing.Size(86, 35)
         Me.btnQuit.TabIndex = 14
@@ -59,7 +59,7 @@ Partial Class FrmchkChoose2
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(1325, 627)
+        Me.btnNext.Location = New System.Drawing.Point(1165, 331)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(86, 30)
         Me.btnNext.TabIndex = 15
@@ -68,14 +68,14 @@ Partial Class FrmchkChoose2
         '
         'TextBoxAmountAny1
         '
-        Me.TextBoxAmountAny1.Location = New System.Drawing.Point(120, 182)
+        Me.TextBoxAmountAny1.Location = New System.Drawing.Point(120, 110)
         Me.TextBoxAmountAny1.Name = "TextBoxAmountAny1"
         Me.TextBoxAmountAny1.Size = New System.Drawing.Size(222, 23)
         Me.TextBoxAmountAny1.TabIndex = 20
         '
         'TextBoxAmountAny2
         '
-        Me.TextBoxAmountAny2.Location = New System.Drawing.Point(1070, 182)
+        Me.TextBoxAmountAny2.Location = New System.Drawing.Point(840, 101)
         Me.TextBoxAmountAny2.Name = "TextBoxAmountAny2"
         Me.TextBoxAmountAny2.Size = New System.Drawing.Size(219, 23)
         Me.TextBoxAmountAny2.TabIndex = 21
@@ -83,9 +83,9 @@ Partial Class FrmchkChoose2
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.reverse_arrows
-        Me.PictureBox1.Location = New System.Drawing.Point(564, 72)
+        Me.PictureBox1.Location = New System.Drawing.Point(530, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(132, 86)
+        Me.PictureBox1.Size = New System.Drawing.Size(101, 64)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 22
         Me.PictureBox1.TabStop = False
@@ -94,7 +94,7 @@ Partial Class FrmchkChoose2
         '
         Me.lblFrom.AutoSize = True
         Me.lblFrom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblFrom.Location = New System.Drawing.Point(120, 72)
+        Me.lblFrom.Location = New System.Drawing.Point(120, 48)
         Me.lblFrom.Name = "lblFrom"
         Me.lblFrom.Size = New System.Drawing.Size(59, 25)
         Me.lblFrom.TabIndex = 23
@@ -104,7 +104,7 @@ Partial Class FrmchkChoose2
         '
         Me.lblTo.AutoSize = True
         Me.lblTo.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblTo.Location = New System.Drawing.Point(1070, 72)
+        Me.lblTo.Location = New System.Drawing.Point(840, 48)
         Me.lblTo.Name = "lblTo"
         Me.lblTo.Size = New System.Drawing.Size(35, 25)
         Me.lblTo.TabIndex = 24
@@ -114,7 +114,7 @@ Partial Class FrmchkChoose2
         '
         Me.lblAny1.AutoSize = True
         Me.lblAny1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblAny1.Location = New System.Drawing.Point(120, 119)
+        Me.lblAny1.Location = New System.Drawing.Point(120, 73)
         Me.lblAny1.Name = "lblAny1"
         Me.lblAny1.Size = New System.Drawing.Size(48, 25)
         Me.lblAny1.TabIndex = 25
@@ -124,7 +124,7 @@ Partial Class FrmchkChoose2
         '
         Me.lblAny2.AutoSize = True
         Me.lblAny2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblAny2.Location = New System.Drawing.Point(1070, 133)
+        Me.lblAny2.Location = New System.Drawing.Point(840, 73)
         Me.lblAny2.Name = "lblAny2"
         Me.lblAny2.Size = New System.Drawing.Size(48, 25)
         Me.lblAny2.TabIndex = 26
@@ -134,7 +134,7 @@ Partial Class FrmchkChoose2
         '
         Me.ComboBoxAny1.FormattingEnabled = True
         Me.ComboBoxAny1.Items.AddRange(New Object() {"Choose Your Currency", "Won", "Yen", "Swiss Franc", "USD", "Euro", "Canadian Dollar", "GBP", "Rupees"})
-        Me.ComboBoxAny1.Location = New System.Drawing.Point(120, 211)
+        Me.ComboBoxAny1.Location = New System.Drawing.Point(120, 139)
         Me.ComboBoxAny1.Name = "ComboBoxAny1"
         Me.ComboBoxAny1.Size = New System.Drawing.Size(222, 23)
         Me.ComboBoxAny1.TabIndex = 27
@@ -143,7 +143,7 @@ Partial Class FrmchkChoose2
         '
         Me.ComboBoxAny2.FormattingEnabled = True
         Me.ComboBoxAny2.Items.AddRange(New Object() {"Choose Your Currency", "Australian Dollar", "Polish Zloty", "Pakistan Rupee", "Baht", "New Zealand Dollar", "Forint", "DKK ", "UAH", "GBP"})
-        Me.ComboBoxAny2.Location = New System.Drawing.Point(1070, 211)
+        Me.ComboBoxAny2.Location = New System.Drawing.Point(840, 130)
         Me.ComboBoxAny2.Name = "ComboBoxAny2"
         Me.ComboBoxAny2.Size = New System.Drawing.Size(219, 23)
         Me.ComboBoxAny2.TabIndex = 28
@@ -151,9 +151,9 @@ Partial Class FrmchkChoose2
         'BtnConvertAny1ToAny2
         '
         Me.BtnConvertAny1ToAny2.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnConvertAny1ToAny2.Location = New System.Drawing.Point(120, 269)
+        Me.BtnConvertAny1ToAny2.Location = New System.Drawing.Point(120, 168)
         Me.BtnConvertAny1ToAny2.Name = "BtnConvertAny1ToAny2"
-        Me.BtnConvertAny1ToAny2.Size = New System.Drawing.Size(213, 65)
+        Me.BtnConvertAny1ToAny2.Size = New System.Drawing.Size(283, 32)
         Me.BtnConvertAny1ToAny2.TabIndex = 29
         Me.BtnConvertAny1ToAny2.Text = "Convert Any currency to Any currency"
         Me.BtnConvertAny1ToAny2.UseVisualStyleBackColor = True
@@ -161,9 +161,9 @@ Partial Class FrmchkChoose2
         'btnConvertAny2toAny1
         '
         Me.btnConvertAny2toAny1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnConvertAny2toAny1.Location = New System.Drawing.Point(1070, 269)
+        Me.btnConvertAny2toAny1.Location = New System.Drawing.Point(840, 159)
         Me.btnConvertAny2toAny1.Name = "btnConvertAny2toAny1"
-        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(219, 65)
+        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(294, 32)
         Me.btnConvertAny2toAny1.TabIndex = 30
         Me.btnConvertAny2toAny1.Text = "Convert Any currency to Any Currency"
         Me.btnConvertAny2toAny1.UseVisualStyleBackColor = True
@@ -171,7 +171,7 @@ Partial Class FrmchkChoose2
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(596, 296)
+        Me.btnReset.Location = New System.Drawing.Point(641, 162)
         Me.btnReset.Name = "btnReset"
         Me.btnReset.Size = New System.Drawing.Size(87, 38)
         Me.btnReset.TabIndex = 31
@@ -181,7 +181,7 @@ Partial Class FrmchkChoose2
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnBack.Location = New System.Drawing.Point(1325, 663)
+        Me.btnBack.Location = New System.Drawing.Point(1165, 367)
         Me.btnBack.Name = "btnBack"
         Me.btnBack.Size = New System.Drawing.Size(86, 35)
         Me.btnBack.TabIndex = 32
@@ -193,7 +193,7 @@ Partial Class FrmchkChoose2
         Me.ListBox3.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ListBox3.FormattingEnabled = True
         Me.ListBox3.ItemHeight = 21
-        Me.ListBox3.Location = New System.Drawing.Point(12, 429)
+        Me.ListBox3.Location = New System.Drawing.Point(35, 227)
         Me.ListBox3.Name = "ListBox3"
         Me.ListBox3.Size = New System.Drawing.Size(321, 235)
         Me.ListBox3.TabIndex = 33
@@ -203,7 +203,7 @@ Partial Class FrmchkChoose2
         Me.ListBox4.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ListBox4.FormattingEnabled = True
         Me.ListBox4.ItemHeight = 21
-        Me.ListBox4.Location = New System.Drawing.Point(758, 429)
+        Me.ListBox4.Location = New System.Drawing.Point(668, 227)
         Me.ListBox4.Name = "ListBox4"
         Me.ListBox4.Size = New System.Drawing.Size(321, 235)
         Me.ListBox4.TabIndex = 36
@@ -211,7 +211,7 @@ Partial Class FrmchkChoose2
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button5.Location = New System.Drawing.Point(362, 429)
+        Me.Button5.Location = New System.Drawing.Point(362, 227)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(101, 33)
         Me.Button5.TabIndex = 37
@@ -221,7 +221,7 @@ Partial Class FrmchkChoose2
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button6.Location = New System.Drawing.Point(362, 468)
+        Me.Button6.Location = New System.Drawing.Point(362, 266)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(101, 36)
         Me.Button6.TabIndex = 38
@@ -231,7 +231,7 @@ Partial Class FrmchkChoose2
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button7.Location = New System.Drawing.Point(1095, 429)
+        Me.Button7.Location = New System.Drawing.Point(995, 227)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(101, 33)
         Me.Button7.TabIndex = 39
@@ -241,7 +241,7 @@ Partial Class FrmchkChoose2
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button8.Location = New System.Drawing.Point(1095, 468)
+        Me.Button8.Location = New System.Drawing.Point(995, 266)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(101, 36)
         Me.Button8.TabIndex = 40
@@ -252,7 +252,7 @@ Partial Class FrmchkChoose2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1423, 751)
+        Me.ClientSize = New System.Drawing.Size(1264, 511)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
