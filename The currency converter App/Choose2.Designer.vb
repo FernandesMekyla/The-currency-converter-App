@@ -49,7 +49,7 @@ Partial Class FrmchkChoose2
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(1165, 408)
+        Me.btnQuit.Location = New System.Drawing.Point(1149, 521)
         Me.btnQuit.Name = "btnQuit"
         Me.btnQuit.Size = New System.Drawing.Size(86, 35)
         Me.btnQuit.TabIndex = 14
@@ -59,7 +59,7 @@ Partial Class FrmchkChoose2
         'btnNext
         '
         Me.btnNext.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnNext.Location = New System.Drawing.Point(1165, 331)
+        Me.btnNext.Location = New System.Drawing.Point(1149, 444)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(86, 30)
         Me.btnNext.TabIndex = 15
@@ -68,7 +68,7 @@ Partial Class FrmchkChoose2
         '
         'TextBoxAmountAny1
         '
-        Me.TextBoxAmountAny1.Location = New System.Drawing.Point(120, 110)
+        Me.TextBoxAmountAny1.Location = New System.Drawing.Point(88, 110)
         Me.TextBoxAmountAny1.Name = "TextBoxAmountAny1"
         Me.TextBoxAmountAny1.Size = New System.Drawing.Size(222, 23)
         Me.TextBoxAmountAny1.TabIndex = 20
@@ -85,7 +85,7 @@ Partial Class FrmchkChoose2
         Me.PictureBox1.Image = Global.The_currency_converter_App.My.Resources.Resources.reverse_arrows
         Me.PictureBox1.Location = New System.Drawing.Point(530, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(101, 64)
+        Me.PictureBox1.Size = New System.Drawing.Size(97, 61)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 22
         Me.PictureBox1.TabStop = False
@@ -94,7 +94,7 @@ Partial Class FrmchkChoose2
         '
         Me.lblFrom.AutoSize = True
         Me.lblFrom.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblFrom.Location = New System.Drawing.Point(120, 48)
+        Me.lblFrom.Location = New System.Drawing.Point(88, 48)
         Me.lblFrom.Name = "lblFrom"
         Me.lblFrom.Size = New System.Drawing.Size(59, 25)
         Me.lblFrom.TabIndex = 23
@@ -114,7 +114,7 @@ Partial Class FrmchkChoose2
         '
         Me.lblAny1.AutoSize = True
         Me.lblAny1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.lblAny1.Location = New System.Drawing.Point(120, 73)
+        Me.lblAny1.Location = New System.Drawing.Point(88, 73)
         Me.lblAny1.Name = "lblAny1"
         Me.lblAny1.Size = New System.Drawing.Size(48, 25)
         Me.lblAny1.TabIndex = 25
@@ -134,7 +134,7 @@ Partial Class FrmchkChoose2
         '
         Me.ComboBoxAny1.FormattingEnabled = True
         Me.ComboBoxAny1.Items.AddRange(New Object() {"Choose Your Currency", "Won", "Yen", "Swiss Franc", "USD", "Euro", "Canadian Dollar", "GBP", "Rupees"})
-        Me.ComboBoxAny1.Location = New System.Drawing.Point(120, 139)
+        Me.ComboBoxAny1.Location = New System.Drawing.Point(88, 139)
         Me.ComboBoxAny1.Name = "ComboBoxAny1"
         Me.ComboBoxAny1.Size = New System.Drawing.Size(222, 23)
         Me.ComboBoxAny1.TabIndex = 27
@@ -151,9 +151,9 @@ Partial Class FrmchkChoose2
         'BtnConvertAny1ToAny2
         '
         Me.BtnConvertAny1ToAny2.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.BtnConvertAny1ToAny2.Location = New System.Drawing.Point(120, 168)
+        Me.BtnConvertAny1ToAny2.Location = New System.Drawing.Point(88, 168)
         Me.BtnConvertAny1ToAny2.Name = "BtnConvertAny1ToAny2"
-        Me.BtnConvertAny1ToAny2.Size = New System.Drawing.Size(283, 32)
+        Me.BtnConvertAny1ToAny2.Size = New System.Drawing.Size(222, 53)
         Me.BtnConvertAny1ToAny2.TabIndex = 29
         Me.BtnConvertAny1ToAny2.Text = "Convert Any currency to Any currency"
         Me.BtnConvertAny1ToAny2.UseVisualStyleBackColor = True
@@ -163,7 +163,7 @@ Partial Class FrmchkChoose2
         Me.btnConvertAny2toAny1.Font = New System.Drawing.Font("Bodoni MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.btnConvertAny2toAny1.Location = New System.Drawing.Point(840, 159)
         Me.btnConvertAny2toAny1.Name = "btnConvertAny2toAny1"
-        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(294, 32)
+        Me.btnConvertAny2toAny1.Size = New System.Drawing.Size(228, 62)
         Me.btnConvertAny2toAny1.TabIndex = 30
         Me.btnConvertAny2toAny1.Text = "Convert Any currency to Any Currency"
         Me.btnConvertAny2toAny1.UseVisualStyleBackColor = True
@@ -171,9 +171,9 @@ Partial Class FrmchkChoose2
         'btnReset
         '
         Me.btnReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.btnReset.Location = New System.Drawing.Point(641, 162)
+        Me.btnReset.Location = New System.Drawing.Point(540, 159)
         Me.btnReset.Name = "btnReset"
-        Me.btnReset.Size = New System.Drawing.Size(87, 38)
+        Me.btnReset.Size = New System.Drawing.Size(87, 34)
         Me.btnReset.TabIndex = 31
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
@@ -181,7 +181,7 @@ Partial Class FrmchkChoose2
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnBack.Location = New System.Drawing.Point(1165, 367)
+        Me.btnBack.Location = New System.Drawing.Point(1149, 480)
         Me.btnBack.Name = "btnBack"
         Me.btnBack.Size = New System.Drawing.Size(86, 35)
         Me.btnBack.TabIndex = 32
@@ -193,9 +193,9 @@ Partial Class FrmchkChoose2
         Me.ListBox3.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ListBox3.FormattingEnabled = True
         Me.ListBox3.ItemHeight = 21
-        Me.ListBox3.Location = New System.Drawing.Point(35, 227)
+        Me.ListBox3.Location = New System.Drawing.Point(35, 258)
         Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(321, 235)
+        Me.ListBox3.Size = New System.Drawing.Size(321, 298)
         Me.ListBox3.TabIndex = 33
         '
         'ListBox4
@@ -203,17 +203,17 @@ Partial Class FrmchkChoose2
         Me.ListBox4.Font = New System.Drawing.Font("Bookman Old Style", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ListBox4.FormattingEnabled = True
         Me.ListBox4.ItemHeight = 21
-        Me.ListBox4.Location = New System.Drawing.Point(668, 227)
+        Me.ListBox4.Location = New System.Drawing.Point(668, 258)
         Me.ListBox4.Name = "ListBox4"
-        Me.ListBox4.Size = New System.Drawing.Size(321, 235)
+        Me.ListBox4.Size = New System.Drawing.Size(321, 298)
         Me.ListBox4.TabIndex = 36
         '
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button5.Location = New System.Drawing.Point(362, 227)
+        Me.Button5.Location = New System.Drawing.Point(362, 258)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(101, 33)
+        Me.Button5.Size = New System.Drawing.Size(76, 33)
         Me.Button5.TabIndex = 37
         Me.Button5.Text = "Add"
         Me.Button5.UseVisualStyleBackColor = True
@@ -221,9 +221,9 @@ Partial Class FrmchkChoose2
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button6.Location = New System.Drawing.Point(362, 266)
+        Me.Button6.Location = New System.Drawing.Point(362, 297)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(101, 36)
+        Me.Button6.Size = New System.Drawing.Size(76, 36)
         Me.Button6.TabIndex = 38
         Me.Button6.Text = "Clear"
         Me.Button6.UseVisualStyleBackColor = True
@@ -231,9 +231,9 @@ Partial Class FrmchkChoose2
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button7.Location = New System.Drawing.Point(995, 227)
+        Me.Button7.Location = New System.Drawing.Point(995, 258)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(101, 33)
+        Me.Button7.Size = New System.Drawing.Size(73, 33)
         Me.Button7.TabIndex = 39
         Me.Button7.Text = "Add"
         Me.Button7.UseVisualStyleBackColor = True
@@ -241,9 +241,9 @@ Partial Class FrmchkChoose2
         'Button8
         '
         Me.Button8.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button8.Location = New System.Drawing.Point(995, 266)
+        Me.Button8.Location = New System.Drawing.Point(995, 297)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(101, 36)
+        Me.Button8.Size = New System.Drawing.Size(73, 36)
         Me.Button8.TabIndex = 40
         Me.Button8.Text = "Clear"
         Me.Button8.UseVisualStyleBackColor = True
@@ -252,7 +252,7 @@ Partial Class FrmchkChoose2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1264, 511)
+        Me.ClientSize = New System.Drawing.Size(1264, 568)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)

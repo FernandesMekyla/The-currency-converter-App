@@ -1,4 +1,5 @@
-﻿Public Class FrmchkChoose1
+﻿' This helps in giving the code a clear view of how you want the numbers to be entered and the output of the numbers.
+Public Class FrmchkChoose1
     Dim Any As Decimal
     Dim GBP As Decimal
     Dim USD As Decimal
@@ -8,9 +9,13 @@
     Dim CHF As Decimal
     Dim KRW As Decimal
     Dim JPY As Decimal
+
+    ' This button Quit closes the full program.
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         Application.Exit()
     End Sub
+
+    ' This helps you to select from the combobox which currency you want to convert your GBP money to.
     Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
         ComboBox2.Items.Add("US Dollars")
         ComboBox2.Items.Add("Euros")
@@ -21,6 +26,7 @@
         ComboBox2.Items.Add("Yen")
     End Sub
 
+    ' This code below is for the button to convert GBP currency to any other currency along with the currency rate.
     Private Sub BtnConverttoAnyCurrency_Click(sender As Object, e As EventArgs) Handles btnConverttoAnyCurrency.Click
 
         If ComboBox1.Text = "GBP" And ComboBox2.Text = "US Dollars" Then
@@ -58,12 +64,16 @@
             TextBoxAny.Text = TextBoxGBP.Text * 188.14
         End If
     End Sub
+
+    ' This button reset your amount on both the sides of the converter 
+    ' from GBP to Any and Any to GBP
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
         ResetText()
         TextBoxGBP.ResetText()
         TextBoxAny.ResetText()
     End Sub
 
+    ' This Converts Any to GBP currency 
     Private Sub btnConvertToGBPCurrency_Click(sender As Object, e As EventArgs) Handles btnConvertToGBPCurrency.Click
         If ComboBox2.Text = "US Dollars" And ComboBox1.Text = "GBP" Then
             USD = 1.0 * 0.79
@@ -101,30 +111,37 @@
         End If
     End Sub
 
+    ' This takes you to the ending page which displays Thank you message.
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
         FrmThankyouPage.Show()
         Me.Hide()
     End Sub
 
+    'This button takes you to FrmQuestion1
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         FrmQuestion1.Show()
         Me.Hide()
     End Sub
 
+    'This helps you add you currency exchange as it displays the amount and once you reset the amount in
+    'the textbox it saves your calculations in the listbox for GBP to Any.
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Listbox1.Items.Add(TextBoxGBP.Text)
         Listbox1.Items.Add(TextBoxAny.Text)
     End Sub
 
+    ' This clears the amounts in the listbox for GBP To Any. 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Listbox1.Items.Clear()
     End Sub
 
+    ' This helps you add currency for Any to GBP and it saves it in the listbox even if you reset the amounts in the textbox where the amount is displayed.
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         ListBox2.Items.Add(TextBoxAny.Text)
         ListBox2.Items.Add(TextBoxGBP.Text)
     End Sub
 
+    ' This Clear the amounts in the listbox for Any to GBP.
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         ListBox2.Items.Clear()
     End Sub

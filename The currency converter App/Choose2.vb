@@ -1,4 +1,5 @@
-﻿Public Class FrmchkChoose2
+﻿' This helps in giving the code a clear view of how you want the numbers to be entered and the output of the numbers.
+Public Class FrmchkChoose2
     Dim Any As Decimal
     Dim GBP As Decimal
     Dim USD As Decimal
@@ -16,21 +17,26 @@
     Dim HUF As Decimal
     Dim DKK As Decimal
     Dim UAH As Decimal
+
+    ' This Button Quit closes the full program.
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         Application.Exit()
     End Sub
 
+    ' This takes you to the ending page which displays Thank you message.
     Private Sub BtnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
         FrmThankyouPage.Show()
         Me.Hide()
     End Sub
 
+    ' This button allows you to reset the text in Amount1 and Amount2
     Private Sub BtnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
         ResetText()
         TextBoxAmountAny1.ResetText()
         TextBoxAmountAny2.ResetText()
     End Sub
 
+    ' This Displays all the currency in the combobox for currencyAny1.
     Private Sub ComboBoxAny1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxAny1.SelectedIndexChanged
         ComboBoxAny1.Items.Add("Won")
         ComboBoxAny1.Items.Add("Yen")
@@ -42,6 +48,7 @@
         ComboBoxAny1.Items.Add("Rupees")
     End Sub
 
+    'This Displays all the currency in the combobox for currencyAny2.
     Private Sub ComboBoxAny2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxAny2.SelectedIndexChanged
         ComboBoxAny2.Items.Add("Australian Dollar")
         ComboBoxAny2.Items.Add("Polish Zloty")
@@ -53,11 +60,13 @@
         ComboBoxAny2.Items.Add("UAH")
     End Sub
 
+    ' This button takes you to FrmQuestion1.
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
         FrmQuestion1.Show()
         Me.Hide()
     End Sub
 
+    'This is all of the code for AnyCurrency1 to AnyCurrency2, along with the exchange rate.
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnConvertAny1ToAny2.Click
 
         If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "Australian Dollar" Then
@@ -379,6 +388,7 @@
         End If
     End Sub
 
+    ' This is the Currency exchange code for AnyCurrency2 to AnyCurrency1.
     Private Sub btnConvertAny2toAny1_Click(sender As Object, e As EventArgs) Handles btnConvertAny2toAny1.Click
         If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Won" Then
             KRW = AUD * 878.55
@@ -701,20 +711,26 @@
         End If
     End Sub
 
+    'This helps you add you currency exchange as it displays the amount and once you reset the amount in
+    'the textbox it saves your calculations in the listbox for Any1 to Any2.
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         ListBox3.Items.Add(TextBoxAmountAny1.Text)
         ListBox3.Items.Add(TextBoxAmountAny2.Text)
     End Sub
 
+    ' This clears the amounts in the listbox for Any1 To Any2.
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         ListBox3.Items.Clear()
     End Sub
 
+    'This helps you add you currency exchange as it displays the amount and once you reset the amount in
+    'the textbox it saves your calculations in the listbox for Any2 to Any1.
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         ListBox4.Items.Add(TextBoxAmountAny2.Text)
         ListBox4.Items.Add(TextBoxAmountAny1.Text)
     End Sub
 
+    ' This clears the amounts in the listbox for Any2 To Any1.
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         ListBox4.Items.Clear()
     End Sub

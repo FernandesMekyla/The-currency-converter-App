@@ -63,9 +63,9 @@ Partial Class FrmThankyouPage
         'btnQuit
         '
         Me.btnQuit.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnQuit.Location = New System.Drawing.Point(829, 480)
+        Me.btnQuit.Location = New System.Drawing.Point(829, 491)
         Me.btnQuit.Name = "btnQuit"
-        Me.btnQuit.Size = New System.Drawing.Size(75, 38)
+        Me.btnQuit.Size = New System.Drawing.Size(75, 27)
         Me.btnQuit.TabIndex = 19
         Me.btnQuit.Text = "Quit"
         Me.btnQuit.UseVisualStyleBackColor = True
@@ -73,9 +73,9 @@ Partial Class FrmThankyouPage
         'btnBack
         '
         Me.btnBack.Font = New System.Drawing.Font("Baskerville Old Face", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnBack.Location = New System.Drawing.Point(829, 434)
+        Me.btnBack.Location = New System.Drawing.Point(829, 454)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(75, 40)
+        Me.btnBack.Size = New System.Drawing.Size(75, 31)
         Me.btnBack.TabIndex = 20
         Me.btnBack.Text = "Back"
         Me.btnBack.UseVisualStyleBackColor = True
