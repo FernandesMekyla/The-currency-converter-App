@@ -125,24 +125,24 @@ Public Class FrmchkChoose1
 
     'This helps you add you currency exchange as it displays the amount and once you reset the amount in
     'the textbox it saves your calculations in the listbox for GBP to Any.
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnAdd1.Click
         Listbox1.Items.Add(TextBoxGBP.Text)
         Listbox1.Items.Add(TextBoxAny.Text)
     End Sub
 
     ' This clears the amounts in the listbox for GBP To Any. 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnClear2.Click
         Listbox1.Items.Clear()
     End Sub
 
     ' This helps you add currency for Any to GBP and it saves it in the listbox even if you reset the amounts in the textbox where the amount is displayed.
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnAdd3.Click
         ListBox2.Items.Add(TextBoxAny.Text)
         ListBox2.Items.Add(TextBoxGBP.Text)
     End Sub
 
     ' This Clear the amounts in the listbox for Any to GBP.
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles btnClear4.Click
         ListBox2.Items.Clear()
     End Sub
 End Class

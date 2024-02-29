@@ -713,25 +713,25 @@ Public Class FrmchkChoose2
 
     'This helps you add you currency exchange as it displays the amount and once you reset the amount in
     'the textbox it saves your calculations in the listbox for Any1 to Any2.
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles btnAdd5.Click
         ListBox3.Items.Add(TextBoxAmountAny1.Text)
         ListBox3.Items.Add(TextBoxAmountAny2.Text)
     End Sub
 
     ' This clears the amounts in the listbox for Any1 To Any2.
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles btnClear6.Click
         ListBox3.Items.Clear()
     End Sub
 
     'This helps you add you currency exchange as it displays the amount and once you reset the amount in
     'the textbox it saves your calculations in the listbox for Any2 to Any1.
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles btnAdd7.Click
         ListBox4.Items.Add(TextBoxAmountAny2.Text)
         ListBox4.Items.Add(TextBoxAmountAny1.Text)
     End Sub
 
     ' This clears the amounts in the listbox for Any2 To Any1.
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles btnClear8.Click
         ListBox4.Items.Clear()
     End Sub
 End Class

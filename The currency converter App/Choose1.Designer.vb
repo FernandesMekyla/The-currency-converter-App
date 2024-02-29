@@ -36,11 +36,11 @@ Partial Class FrmchkChoose1
         Me.btnConvertToGBPCurrency = New System.Windows.Forms.Button()
         Me.btnBack = New System.Windows.Forms.Button()
         Me.Listbox1 = New System.Windows.Forms.ListBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnAdd1 = New System.Windows.Forms.Button()
+        Me.btnClear2 = New System.Windows.Forms.Button()
         Me.ListBox2 = New System.Windows.Forms.ListBox()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnClear4 = New System.Windows.Forms.Button()
+        Me.btnAdd3 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -176,25 +176,25 @@ Partial Class FrmchkChoose1
         Me.Listbox1.Size = New System.Drawing.Size(264, 298)
         Me.Listbox1.TabIndex = 23
         '
-        'Button1
+        'btnAdd1
         '
-        Me.Button1.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.Location = New System.Drawing.Point(282, 213)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(64, 33)
-        Me.Button1.TabIndex = 24
-        Me.Button1.Text = "Add"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnAdd1.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnAdd1.Location = New System.Drawing.Point(282, 213)
+        Me.btnAdd1.Name = "btnAdd1"
+        Me.btnAdd1.Size = New System.Drawing.Size(64, 33)
+        Me.btnAdd1.TabIndex = 24
+        Me.btnAdd1.Text = "Add"
+        Me.btnAdd1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnClear2
         '
-        Me.Button2.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button2.Location = New System.Drawing.Point(282, 252)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(64, 36)
-        Me.Button2.TabIndex = 25
-        Me.Button2.Text = "Clear"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnClear2.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnClear2.Location = New System.Drawing.Point(282, 252)
+        Me.btnClear2.Name = "btnClear2"
+        Me.btnClear2.Size = New System.Drawing.Size(64, 36)
+        Me.btnClear2.TabIndex = 25
+        Me.btnClear2.Text = "Clear"
+        Me.btnClear2.UseVisualStyleBackColor = True
         '
         'ListBox2
         '
@@ -206,36 +206,36 @@ Partial Class FrmchkChoose1
         Me.ListBox2.Size = New System.Drawing.Size(261, 319)
         Me.ListBox2.TabIndex = 26
         '
-        'Button4
+        'btnClear4
         '
-        Me.Button4.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.Location = New System.Drawing.Point(1072, 231)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(66, 36)
-        Me.Button4.TabIndex = 28
-        Me.Button4.Text = "Clear"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnClear4.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnClear4.Location = New System.Drawing.Point(1072, 231)
+        Me.btnClear4.Name = "btnClear4"
+        Me.btnClear4.Size = New System.Drawing.Size(66, 36)
+        Me.btnClear4.TabIndex = 28
+        Me.btnClear4.Text = "Clear"
+        Me.btnClear4.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnAdd3
         '
-        Me.Button3.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Button3.Location = New System.Drawing.Point(1072, 192)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(66, 33)
-        Me.Button3.TabIndex = 29
-        Me.Button3.Text = "Add"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnAdd3.Font = New System.Drawing.Font("Bodoni MT", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnAdd3.Location = New System.Drawing.Point(1072, 192)
+        Me.btnAdd3.Name = "btnAdd3"
+        Me.btnAdd3.Size = New System.Drawing.Size(66, 33)
+        Me.btnAdd3.TabIndex = 29
+        Me.btnAdd3.Text = "Add"
+        Me.btnAdd3.UseVisualStyleBackColor = True
         '
         'FrmchkChoose1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1294, 589)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.btnAdd3)
+        Me.Controls.Add(Me.btnClear4)
         Me.Controls.Add(Me.ListBox2)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnClear2)
+        Me.Controls.Add(Me.btnAdd1)
         Me.Controls.Add(Me.Listbox1)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.btnConvertToGBPCurrency)
@@ -272,9 +272,9 @@ Partial Class FrmchkChoose1
     Friend WithEvents btnConvertToGBPCurrency As Button
     Friend WithEvents btnBack As Button
     Friend WithEvents Listbox1 As ListBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnAdd1 As Button
+    Friend WithEvents btnClear2 As Button
     Friend WithEvents ListBox2 As ListBox
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnClear4 As Button
+    Friend WithEvents btnAdd3 As Button
 End Class
