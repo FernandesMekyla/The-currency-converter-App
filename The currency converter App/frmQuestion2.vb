@@ -24,6 +24,7 @@
     End Sub
     'This button allows you to go back to the previous form in case you have chosen the wrong option.
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        Hide()
         FrmQuestion1.Show()
         Me.Hide()
     End Sub

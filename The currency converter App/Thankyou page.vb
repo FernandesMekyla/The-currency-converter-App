@@ -8,6 +8,7 @@ Public Class FrmThankyouPage
 
     ' This Button takes you back to the starting page which is FrmQuestion1.
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        Hide()
         FrmQuestion1.Show()
         Me.Hide()
     End Sub

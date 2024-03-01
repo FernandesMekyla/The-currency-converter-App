@@ -20,6 +20,7 @@
 
     ' As you can see in the code below that if you press ChkChoose2 it will automatically take you to FrmQuestion2 to enter your name.
     Private Sub ChkChoose2_CheckedChanged(sender As Object, e As EventArgs) Handles chkChoose2.CheckedChanged
+        Hide()
         FrmQuestion2.Show()
         Me.Hide()
     End Sub
