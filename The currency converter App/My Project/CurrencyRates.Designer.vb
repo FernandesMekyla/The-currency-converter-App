@@ -31,6 +31,7 @@ Partial Class CurrencyRates
         Me.txtYEN = New System.Windows.Forms.TextBox()
         Me.txtEUR = New System.Windows.Forms.TextBox()
         Me.btnSAVE = New System.Windows.Forms.Button()
+        Me.btnNEXT = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lblUSD
@@ -104,18 +105,29 @@ Partial Class CurrencyRates
         'btnSAVE
         '
         Me.btnSAVE.Font = New System.Drawing.Font("Georgia", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.btnSAVE.Location = New System.Drawing.Point(430, 291)
+        Me.btnSAVE.Location = New System.Drawing.Point(430, 361)
         Me.btnSAVE.Name = "btnSAVE"
         Me.btnSAVE.Size = New System.Drawing.Size(80, 29)
         Me.btnSAVE.TabIndex = 8
         Me.btnSAVE.Text = "SAVE"
         Me.btnSAVE.UseVisualStyleBackColor = True
         '
+        'btnNEXT
+        '
+        Me.btnNEXT.Font = New System.Drawing.Font("Georgia", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.btnNEXT.Location = New System.Drawing.Point(430, 301)
+        Me.btnNEXT.Name = "btnNEXT"
+        Me.btnNEXT.Size = New System.Drawing.Size(80, 29)
+        Me.btnNEXT.TabIndex = 9
+        Me.btnNEXT.Text = "NEXT"
+        Me.btnNEXT.UseVisualStyleBackColor = True
+        '
         'CurrencyRates
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnNEXT)
         Me.Controls.Add(Me.btnSAVE)
         Me.Controls.Add(Me.txtEUR)
         Me.Controls.Add(Me.txtYEN)
@@ -141,4 +153,5 @@ Partial Class CurrencyRates
     Friend WithEvents txtYEN As TextBox
     Friend WithEvents txtEUR As TextBox
     Friend WithEvents btnSAVE As Button
+    Friend WithEvents btnNEXT As Button
 End Class

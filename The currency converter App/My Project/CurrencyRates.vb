@@ -19,4 +19,9 @@ Public Class CurrencyRates
             writer.WriteLine(txtEUR.Text)
         End Using
     End Sub
+
+    Private Sub btnNEXT_Click(sender As Object, e As EventArgs) Handles btnNEXT.Click
+        FrmThankyouPage.Show()
+        Me.Hide()
+    End Sub
 End Class

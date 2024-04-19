@@ -25,7 +25,7 @@ Public Class FrmchkChoose2
 
     ' This takes you to the ending page which displays Thank you message.
     Private Sub BtnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
-        FrmThankyouPage.Show()
+        CurrencyRates.Show()
         Me.Hide()
     End Sub
 
