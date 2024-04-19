@@ -14,7 +14,36 @@ Public Class FrmchkChoose1
     Private Sub BtnQuit_Click(sender As Object, e As EventArgs) Handles btnQuit.Click
         Application.Exit()
     End Sub
+    Public Function FormisOK()
 
+        Dim userInput As String = TextBoxAmountAny1.Text.Trim()
+
+        ' Check if the text box is empty
+        If String.IsNullOrEmpty(userInput) Then
+            MessageBox.Show("Please enter a value. The field cannot be blank.")
+            TextBoxAmountAny1.Focus() ' Set focus back to the TextBox for user correction
+            Return False
+        End If
+
+        ' Check if the input is numerical
+        Dim isNumeric As Boolean = True
+        For Each c As Char In userInput
+            If Not Char.IsDigit(c) Then
+                isNumeric = False
+                Exit For
+            End If
+        Next
+
+        If Not isNumeric Then
+            MessageBox.Show("Please enter a valid numerical value.")
+            TextBoxAmountAny1.Focus()
+            Return False
+        End If
+
+        ' If all checks are passed, proceed with further processing
+        Return True
+
+    End Function
     ' This helps you to select from the combobox which currency you want to convert your GBP money to.
     Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox2.SelectedIndexChanged
         ComboBox2.Items.Add("US Dollars")
@@ -28,8 +57,8 @@ Public Class FrmchkChoose1
 
     ' This code below is for the button to convert GBP currency to any other currency along with the currency rate.
     Private Sub BtnConverttoAnyCurrency_Click(sender As Object, e As EventArgs) Handles btnConverttoAnyCurrency.Click
-
-        If ComboBox1.Text = "GBP" And ComboBox2.Text = "US Dollars" Then
+        If FormisOK() Then
+            If ComboBox1.Text = "GBP" And ComboBox2.Text = "US Dollars" Then
             USD = 1.0 * 1.27
             TextBoxAny.Text = TextBoxGBP.Text * 1.27
         End If
@@ -59,10 +88,11 @@ Public Class FrmchkChoose1
             TextBoxAny.Text = TextBoxGBP.Text * 1693.75
         End If
 
-        If ComboBox1.Text = "GBP" And ComboBox2.Text = "Yen" Then
-            JPY = 1.0 * 188.14
-            TextBoxAny.Text = TextBoxGBP.Text * 188.14
-        End If
+            If ComboBox1.Text = "GBP" And ComboBox2.Text = "Yen" Then
+                JPY = 1.0 * 188.14
+                TextBoxAny.Text = TextBoxGBP.Text * 188.14
+            End If
+
     End Sub
 
     ' This button reset your amount on both the sides of the converter 
