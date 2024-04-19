@@ -15,7 +15,7 @@ Public Class FrmchkChoose1
         Application.Exit()
     End Sub
     Public Function FormisOK()
-
+        'this is used for data validation in order to make sure the user has inputted data before proceding further in the conversion rates.
         Dim userInput As String = TextBoxGBP.Text.Trim()
 
         ' Check if the text box is empty

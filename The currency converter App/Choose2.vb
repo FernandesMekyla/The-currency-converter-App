@@ -59,6 +59,8 @@ Public Class FrmchkChoose2
         ComboBoxAny2.Items.Add("DKK")
         ComboBoxAny2.Items.Add("UAH")
     End Sub
+
+    'this is used for data validation in order to make sure the user has inputted data before proceding further in the conversion rates.
     Public Function FormisOK()
 
         Dim userInput As String = TextBoxAmountAny1.Text.Trim()
