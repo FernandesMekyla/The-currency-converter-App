@@ -98,6 +98,16 @@ Public Class FrmchkChoose2
 
     'This is all of the code for AnyCurrency1 to AnyCurrency2, along with the exchange rate.
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnConvertAny1ToAny2.Click
+        'Usage Example
+
+        Dim converter As New CurrencyConverter()
+        Try
+            Dim convertedAmount As Double = converter.ConvertCurrency(ComboBoxAny1.Text, ComboBoxAny2.Text, Double.Parse(TextBoxAmountAny1.Text))
+            TextBoxAmountAny2.Text = convertedAmount.ToString()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+
         If FormisOK() Then
             If ComboBoxAny1.Text = "Won" And ComboBoxAny2.Text = "Australian Dollar" Then
                 AUD = KRW * 0.0011
@@ -421,6 +431,16 @@ Public Class FrmchkChoose2
 
     ' This is the Currency exchange code for AnyCurrency2 to AnyCurrency1.
     Private Sub btnConvertAny2toAny1_Click(sender As Object, e As EventArgs) Handles btnConvertAny2toAny1.Click
+        'Usage Example
+
+        Dim converter As New CurrencyConverter()
+        Try
+            Dim convertedAmount As Double = converter.ConvertCurrency(ComboBoxAny1.Text, ComboBoxAny2.Text, Double.Parse(TextBoxAmountAny1.Text))
+            TextBoxAmountAny2.Text = convertedAmount.ToString()
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+        End Try
+
         If FormisOK() Then
             If ComboBoxAny2.Text = "Australian Dollar" And ComboBoxAny1.Text = "Won" Then
                 KRW = AUD * 878.55
